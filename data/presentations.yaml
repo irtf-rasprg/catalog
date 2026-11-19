@@ -1,0 +1,594 @@
+presentations:
+- id: slides-116-rasprg-rg-chair-slides-rasp-rg
+  meeting: '116'
+  title: RG Chair Slides RASP RG
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-rg-chair-slides-rasp-rg
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-rg-chair-slides-rasp-rg/
+- id: slides-116-rasprg-hard-work-hum-final-final
+  meeting: '116'
+  title: 'The Hard Work of the Hum: Using Ethnography to Study Power and Politics in the IETF'
+  presenters:
+  - Corinne Cath
+  kind: talk
+  topics:
+  - community-culture
+  - governance
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-hard-work-hum-final-final
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-hard-work-hum-final-final/
+- id: slides-116-rasprg-data-driver-reviewer-recommendations
+  meeting: '116'
+  title: Data-driven Reviewer Recommendations
+  presenters:
+  - Stephen McQuistin
+  kind: talk
+  topics:
+  - data-tools
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-data-driver-reviewer-recommendations
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-data-driver-reviewer-recommendations/
+- id: slides-116-rasprg-the-expanding-universe-of-bigbang
+  meeting: '116'
+  title: The Expanding Universe of BigBang
+  presenters:
+  - Sebastian Benthall
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-the-expanding-universe-of-bigbang
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-the-expanding-universe-of-bigbang/
+- id: slides-116-rasprg-some-research-and-methodologies-with-ietf-data
+  meeting: '116'
+  title: Some Research and Methodologies with IETF Data
+  presenters:
+  - Priyanka Sinha
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-some-research-and-methodologies-with-ietf-data
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-some-research-and-methodologies-with-ietf-data/
+- id: slides-116-rasprg-large-language-models-in-standards-discourse-analysis
+  meeting: '116'
+  title: Large Language Models in Standards Discourse Analysis
+  presenters:
+  - Xue (Effy) Li
+  kind: talk
+  topics:
+  - ai-llm
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-large-language-models-in-standards-discourse-analysis
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-large-language-models-in-standards-discourse-analysis/
+- id: slides-116-rasprg-consolidated-slides-rasprg-ietf116
+  meeting: '116'
+  title: Consolidated Slides RASPRG IETF116
+  presenters:
+  - Various
+  kind: consolidated
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-consolidated-slides-rasprg-ietf116
+  doc: https://datatracker.ietf.org/doc/slides-116-rasprg-consolidated-slides-rasprg-ietf116/
+- id: slides-118-rasprg-chairs-slides
+  meeting: '118'
+  title: Chairs' Slides
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-chairs-slides
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-chairs-slides/
+- id: slides-118-rasprg-standards-tracker
+  meeting: '118'
+  title: Internet Standards Tracker
+  presenters:
+  - Carolina Caeiro
+  - Nathan Alan
+  affiliation: Oxford Information Labs / DNS Research Federation
+  kind: talk
+  topics:
+  - data-tools
+  - geopolitics-policy
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-standards-tracker
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-standards-tracker/
+- id: slides-118-rasprg-bigbang-update
+  meeting: '118'
+  title: BigBang Update
+  presenters:
+  - Sebastian Benthall
+  affiliation: NYU School of Law / ICSI
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-bigbang-update
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-bigbang-update/
+- id: slides-118-rasprg-hares-consensus-decisions-iesg
+  meeting: '118'
+  title: Consensus Decision-Making in the IESG
+  presenters:
+  - Susan Hares
+  kind: talk
+  topics:
+  - governance
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-hares-consensus-decisions-iesg
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-hares-consensus-decisions-iesg/
+- id: slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes
+  meeting: '118'
+  title: Communication Patterns in the IETF
+  presenters:
+  - Matthew Russell Barnes
+  kind: talk
+  topics:
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes/
+- id: slides-118-rasprg-cdns-states
+  meeting: '118'
+  title: CDNs and States
+  presenters:
+  - Nick Merrill
+  kind: talk
+  topics:
+  - geopolitics-policy
+  slides: https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-cdns-states
+  doc: https://datatracker.ietf.org/doc/slides-118-rasprg-cdns-states/
+- id: slides-119-rasprg-chairs-slides
+  meeting: '119'
+  title: Chairs' Slides
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-chairs-slides
+  doc: https://datatracker.ietf.org/doc/slides-119-rasprg-chairs-slides/
+- id: slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards
+  meeting: '119'
+  title: 'LLMs and RFCGPT: Leveraging Large Language Model Platforms to Understand Standards'
+  presenters:
+  - Nick Sullivan
+  affiliation: Cryptography Consulting LLC
+  kind: talk
+  topics:
+  - ai-llm
+  slides: https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards
+  doc: https://datatracker.ietf.org/doc/slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards/
+- id: slides-119-rasprg-internet-standards-tracker
+  meeting: '119'
+  title: Internet Standards Tracker Update
+  presenters:
+  - Carolina Caeiro
+  affiliation: Oxford Information Labs / DNS Research Federation
+  kind: talk
+  topics:
+  - data-tools
+  - geopolitics-policy
+  slides: https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-internet-standards-tracker
+  doc: https://datatracker.ietf.org/doc/slides-119-rasprg-internet-standards-tracker/
+- id: slides-119-rasprg-computationally-understanding-the-ietf-consensus-process
+  meeting: '119'
+  title: Computationally Understanding the IETF Consensus Process
+  presenters:
+  - Priyanka Sinha
+  kind: talk
+  topics:
+  - governance
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-computationally-understanding-the-ietf-consensus-process
+  doc: https://datatracker.ietf.org/doc/slides-119-rasprg-computationally-understanding-the-ietf-consensus-process/
+- id: slides-119-rasprg-making-an-rfc-in-todays-ietf
+  meeting: '119'
+  title: Making an RFC in Today's IETF
+  presenters:
+  - Geoff Huston
+  affiliation: APNIC
+  kind: talk
+  topics:
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-making-an-rfc-in-todays-ietf
+  doc: https://datatracker.ietf.org/doc/slides-119-rasprg-making-an-rfc-in-todays-ietf/
+- id: slides-120-rasprg-chair-welcome
+  meeting: '120'
+  title: Chairs' Welcome
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-chair-welcome
+  doc: https://datatracker.ietf.org/doc/slides-120-rasprg-chair-welcome/
+- id: slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development
+  meeting: '120'
+  title: 'One Size Does Not Fit All: Why Gender Matters in Standards Development'
+  presenters:
+  - Diane Liao
+  affiliation: Standards Council of Canada
+  kind: talk
+  topics:
+  - participation-diversity
+  slides: https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development
+  doc: https://datatracker.ietf.org/doc/slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development/
+- id: slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite
+  meeting: '120'
+  title: 'Networks and Power: The Effects of Random Selection into an Administrative Elite (NomCom)'
+  presenters:
+  - Alessandra Allocca
+  affiliation: LMU Munich
+  kind: talk
+  topics:
+  - governance
+  - participation-diversity
+  slides: https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite
+  doc: https://datatracker.ietf.org/doc/slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite/
+- id: slides-120-rasprg-arc-regenerative-communities
+  meeting: '120'
+  title: ARC Regenerative Communities Protocol
+  presenters:
+  - Kaliya Young
+  kind: talk
+  topics:
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-arc-regenerative-communities
+  doc: https://datatracker.ietf.org/doc/slides-120-rasprg-arc-regenerative-communities/
+- id: slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides
+  meeting: '120'
+  title: 'ActivityPub: A Non-Standard Standard'
+  presenters:
+  - Robert W. Gehl
+  kind: talk
+  topics:
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides
+  doc: https://datatracker.ietf.org/doc/slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides/
+- id: slides-121-rasprg-01-chairs-welcome-agenda
+  meeting: '121'
+  title: Chairs' Welcome and Agenda
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-01-chairs-welcome-agenda
+  doc: https://datatracker.ietf.org/doc/slides-121-rasprg-01-chairs-welcome-agenda/
+- id: slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf
+  meeting: '121'
+  title: The Geography of Standardization (with New Findings on IETF)
+  presenters:
+  - Justus Baron
+  affiliation: Northwestern University
+  kind: talk
+  topics:
+  - participation-diversity
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf
+  doc: https://datatracker.ietf.org/doc/slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf/
+- id: slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data
+  meeting: '121'
+  title: 'Sodestream Tools: Exploring the Standards Development Process through Analysing Open Data'
+  presenters:
+  - Ryo Yanagida
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data
+  doc: https://datatracker.ietf.org/doc/slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data/
+- id: slides-121-rasprg-automating-ietf-insights-generation-with-ai
+  meeting: '121'
+  title: Automating IETF Insights Generation with AI
+  presenters:
+  - Jaime Jiménez
+  affiliation: Ericsson
+  kind: talk
+  topics:
+  - ai-llm
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-automating-ietf-insights-generation-with-ai
+  doc: https://datatracker.ietf.org/doc/slides-121-rasprg-automating-ietf-insights-generation-with-ai/
+- id: slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf
+  meeting: '121'
+  title: Remarkable Regenerative Patterns and Practices of the IETF
+  presenters:
+  - Kaliya Young
+  kind: talk
+  topics:
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf
+  doc: https://datatracker.ietf.org/doc/slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf/
+- id: slides-123-rasprg-0-note-well-agenda
+  meeting: '123'
+  title: Note Well and Agenda
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-0-note-well-agenda
+  doc: https://datatracker.ietf.org/doc/slides-123-rasprg-0-note-well-agenda/
+- id: slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized
+  meeting: '123'
+  title: U.S.-China Economic Interdependence Has Not Declined; It Has Standardized!
+  presenters:
+  - Jeffrey Ding
+  affiliation: George Washington University
+  kind: talk
+  topics:
+  - geopolitics-policy
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized
+  doc: https://datatracker.ietf.org/doc/slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized/
+- id: slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem
+  meeting: '123'
+  title: Interoperation in the AT Protocol Ecosystem
+  presenters:
+  - Bryan Newbold
+  affiliation: Bluesky
+  kind: talk
+  topics:
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem
+  doc: https://datatracker.ietf.org/doc/slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem/
+- id: slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization
+  meeting: '123'
+  title: 'Mapping the Gap: Quantifying Barriers to African Participation in IETF Standardization'
+  presenters:
+  - Karim Attoumani Mohamed
+  affiliation: ISOC Comoros
+  kind: talk
+  topics:
+  - participation-diversity
+  slides: https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization
+  doc: https://datatracker.ietf.org/doc/slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization/
+- id: slides-124-rasprg-0-chairs-welcome
+  meeting: '124'
+  title: Chairs' Welcome
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-0-chairs-welcome
+  doc: https://datatracker.ietf.org/doc/slides-124-rasprg-0-chairs-welcome/
+- id: slides-124-rasprg-01-jie-bian
+  meeting: '124'
+  title: 'Panel: How Does Standardisation Look in an LLM-Enabled Future? (statement)'
+  presenters:
+  - Jie Bian
+  affiliation: University of Oslo
+  kind: panel
+  topics:
+  - ai-llm
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-01-jie-bian
+  doc: https://datatracker.ietf.org/doc/slides-124-rasprg-01-jie-bian/
+- id: slides-124-rasprg-02-jaime-jimenez
+  meeting: '124'
+  title: 'Panel: How Does Standardisation Look in an LLM-Enabled Future? (statement)'
+  presenters:
+  - Jaime Jiménez
+  affiliation: Ericsson
+  kind: panel
+  topics:
+  - ai-llm
+  slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez
+  doc: https://datatracker.ietf.org/doc/slides-124-rasprg-02-jaime-jimenez/
+- id: slides-124-rasprg-03-jpotvin-rasprg
+  meeting: '124'
+  title: 'Panel: How Does Standardisation Look in an LLM-Enabled Future? (statement)'
+  presenters:
+  - Joseph Potvin
+  affiliation: Xalgorithms Foundation
+  kind: panel
+  topics:
+  - ai-llm
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-03-jpotvin-rasprg
+  doc: https://datatracker.ietf.org/doc/slides-124-rasprg-03-jpotvin-rasprg/
+- id: slides-124-rasprg-04-jfqueralt-rasprg
+  meeting: '124'
+  title: 'Panel: How Does Standardisation Look in an LLM-Enabled Future? (statement)'
+  presenters:
+  - Jean F. Quéralt
+  affiliation: The IO Foundation
+  kind: panel
+  topics:
+  - ai-llm
+  - geopolitics-policy
+  slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-04-jfqueralt-rasprg
+  doc: https://datatracker.ietf.org/doc/slides-124-rasprg-04-jfqueralt-rasprg/
+- id: slides-125-rasprg-0-note-well-welcome
+  meeting: '125'
+  title: Note Well and Welcome
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-0-note-well-welcome
+  doc: https://datatracker.ietf.org/doc/slides-125-rasprg-0-note-well-welcome/
+- id: slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings
+  meeting: '125'
+  title: 'Global Standards, Local Voices: Mapping Latin American Participation in the IETF Meetings'
+  presenters:
+  - Priscylla Silva
+  affiliation: University of São Paulo
+  kind: talk
+  topics:
+  - participation-diversity
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings
+  doc: https://datatracker.ietf.org/doc/slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings/
+- id: slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict
+  meeting: '125'
+  title: 'From Standards Adopter to Standards Author: The Evolution of Korea''s National Standardization System with a Focus on ICT'
+  presenters:
+  - Mi-jin Kim
+  affiliation: Yonsei University
+  kind: talk
+  topics:
+  - geopolitics-policy
+  slides: https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict
+  doc: https://datatracker.ietf.org/doc/slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict/
+- id: slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek
+  meeting: '125'
+  title: 'Beyond ASCII Art: Making RFC Protocol Logic Auditable with RFSeek'
+  presenters:
+  - Noga H. Rotman
+  affiliation: University College London
+  kind: talk
+  topics:
+  - ai-llm
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek
+  doc: https://datatracker.ietf.org/doc/slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek/
+- id: slides-interim-2026-rasprg-01-sessa-chair-slides
+  meeting: interim-2026-rasprg-01
+  title: Chair Slides
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/materials/slides-interim-2026-rasprg-01-sessa-chair-slides
+  doc: https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-chair-slides/
+- id: slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c
+  meeting: interim-2026-rasprg-01
+  title: 'Sodestream: Measuring the IETF and W3C'
+  presenters:
+  - Stephen McQuistin
+  kind: talk
+  topics:
+  - data-tools
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/materials/slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c
+  doc: https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c/
+- id: slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data
+  meeting: interim-2026-rasprg-01
+  title: Analysing Internet Standards Development Organisation Data
+  presenters:
+  - Colin Perkins
+  affiliation: University of Glasgow
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/materials/slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data
+  doc: https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data/
+- id: slides-126-rasprg-0-rasprg-ietf126-chairs
+  meeting: '126'
+  title: Chairs' Slides
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-0-rasprg-ietf126-chairs
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-0-rasprg-ietf126-chairs/
+- id: slides-126-rasprg-ai-in-standards-participation
+  meeting: '126'
+  title: AI in Standards Participation
+  presenters:
+  - Mark Nottingham
+  affiliation: Cloudflare
+  kind: talk
+  topics:
+  - ai-llm
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-ai-in-standards-participation
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-ai-in-standards-participation/
+- id: slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts
+  meeting: '126'
+  title: Measuring AI Authorship of IETF Drafts
+  presenters:
+  - Jaime Jiménez
+  affiliation: Ericsson
+  kind: talk
+  topics:
+  - ai-llm
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts/
+- id: slides-126-rasprg-3-marcello-santos
+  meeting: '126'
+  title: 'From Draft to RFC: Mapping the Mortality of Internet-Drafts across the IETF and IRTF'
+  presenters:
+  - Marcelo Santos
+  affiliation: Federal Institute of Sertão Pernambucano
+  kind: talk
+  topics:
+  - document-lifecycle
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-3-marcello-santos
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-3-marcello-santos/
+- id: slides-126-rasprg-community-vitality-through-ripe-mailing-lists
+  meeting: '126'
+  title: Community Vitality through RIPE Mailing Lists
+  presenters:
+  - İlke İlhan
+  affiliation: RIPE NCC
+  kind: talk
+  topics:
+  - community-culture
+  - other-sdos-ecosystems
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-community-vitality-through-ripe-mailing-lists
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-community-vitality-through-ripe-mailing-lists/
+- id: slides-126-rasprg-analysing-internet-standards-data
+  meeting: '126'
+  title: Analysing Internet Standards Development Organisation Data
+  presenters:
+  - Colin Perkins
+  affiliation: University of Glasgow
+  kind: talk
+  topics:
+  - data-tools
+  slides: https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-analysing-internet-standards-data
+  doc: https://datatracker.ietf.org/doc/slides-126-rasprg-analysing-internet-standards-data/
+- id: slides-127-rasprg-0-chairs-welcome
+  meeting: '127'
+  title: Chairs' Welcome
+  presenters:
+  - RG Chairs
+  kind: chairs
+  topics: []
+  slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-0-chairs-welcome
+  doc: https://datatracker.ietf.org/doc/slides-127-rasprg-0-chairs-welcome/
+- id: slides-127-rasprg-llm-text-in-ietf-discussions
+  meeting: '127'
+  title: LLM Text in IETF Discussions (Guidelines for Use of LLMs in IETF Email Discussions)
+  presenters:
+  - Stephen Farrell
+  affiliation: Trinity College Dublin
+  kind: talk
+  topics:
+  - ai-llm
+  - community-culture
+  slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-llm-text-in-ietf-discussions
+  doc: https://datatracker.ietf.org/doc/slides-127-rasprg-llm-text-in-ietf-discussions/
+- id: slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies
+  meeting: '127'
+  title: 'Beyond ASCII Art: Recruiting Protocol Experts for RFSeek User Studies'
+  presenters:
+  - Noga H. Rotman
+  affiliation: University College London
+  kind: talk
+  topics:
+  - ai-llm
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies
+  doc: https://datatracker.ietf.org/doc/slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies/
+- id: slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026
+  meeting: '127'
+  title: 'Who Wrote the RFCs: Authorship, Affiliation and Community, 1969-2026'
+  presenters:
+  - Carlos A. Kamienski
+  - Marcelo Santos
+  affiliation: Federal University of ABC / Federal Institute of Sertão Pernambucano
+  kind: talk
+  topics:
+  - document-lifecycle
+  - participation-diversity
+  slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026
+  doc: https://datatracker.ietf.org/doc/slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026/
+- id: slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf
+  meeting: '127'
+  title: 'Tracing Research into Standards: Investigating IRTF Contributions to the IETF'
+  presenters:
+  - Michel Sales
+  affiliation: Federal University of Ceará
+  kind: talk
+  topics:
+  - document-lifecycle
+  slides: https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf
+  doc: https://datatracker.ietf.org/doc/slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf/
