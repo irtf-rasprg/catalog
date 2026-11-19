@@ -1,0 +1,27 @@
+# Topic taxonomy for rasprg presentations (DRAFT - pending chair review).
+# A presentation can carry several topics. Keys are stable ids used in presentations.yaml.
+topics:
+  - id: participation-diversity
+    label: Participation & diversity
+    description: Who takes part in standards work - geography, gender, regions, newcomers, barriers to entry.
+  - id: governance
+    label: Governance & decision-making
+    description: Consensus, leadership bodies (IESG, NomCom), power and influence in SDO processes.
+  - id: document-lifecycle
+    label: Authorship & document lifecycle
+    description: How drafts become RFCs - authorship, affiliations, reviews, draft outcomes, research-to-standards paths.
+  - id: community-culture
+    label: Community, culture & communication
+    description: Mailing-list dynamics, communication patterns, ethnography, community health and norms.
+  - id: ai-llm
+    label: AI & LLMs in standards
+    description: Using AI/LLMs to analyse standards, and the effect of AI on participation and authorship.
+  - id: data-tools
+    label: Data, tools & methods
+    description: Datasets, analysis tooling (BigBang, sodestream, trackers) and research methodology for SDO data.
+  - id: geopolitics-policy
+    label: Geopolitics & policy
+    description: States, national standardization strategies, fragmentation and international competition.
+  - id: other-sdos-ecosystems
+    label: Other SDOs & protocol ecosystems
+    description: Standards processes outside the IETF (3GPP, W3C, RIPE, ActivityPub, AT Protocol) and comparisons.

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RASPRG Presentations Catalog</title>
+<meta name="description" content="Catalog of presentations given at the IRTF Research and Analysis of Standard-Setting Processes Research Group (rasprg).">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <h1>RASPRG presentations</h1>
+    <p class="lede">Talks given at the IRTF <a href="https://datatracker.ietf.org/rg/rasprg/about/">Research and Analysis of Standard-Setting Processes Research Group</a>, with slides, by meeting, topic and presenter.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="filters" aria-label="Filters">
+    <label class="search">
+      <span>Search</span>
+      <input id="q" type="search" placeholder="Title, presenter, affiliation…" autocomplete="off">
+    </label>
+    <label>
+      <span>Meeting</span>
+      <select id="meeting"><option value="">All meetings</option></select>
+    </label>
+    <label>
+      <span>Presenter</span>
+      <select id="presenter"><option value="">All presenters</option></select>
+    </label>
+    <label class="check">
+      <input id="chairs" type="checkbox"> <span>Include chairs' slides</span>
+    </label>
+    <button id="reset" type="button">Reset</button>
+  </section>
+
+  <section aria-label="Topics">
+    <div id="topics" class="chips" role="group" aria-label="Filter by topic"></div>
+  </section>
+
+  <p id="count" class="count" aria-live="polite"></p>
+  <div id="list"></div>
+</main>
+
+<footer class="wrap foot">
+  <p>Data from the <a href="https://datatracker.ietf.org/rg/rasprg/meetings/">IETF Datatracker</a>. Corrections and topic changes: edit <code>data/*.yaml</code> in this repository and open a pull request.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

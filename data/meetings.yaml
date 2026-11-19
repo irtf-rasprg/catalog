@@ -1,0 +1,99 @@
+meetings:
+- id: '116'
+  label: IETF 116
+  type: ietf
+  date: '2023-03-30'
+  location: Yokohama
+  materials: https://datatracker.ietf.org/meeting/116/session/rasprg
+  recording: https://www.youtube.com/watch?v=Tp47dCQPyMQ
+- id: interim-2023-rasprg-01
+  label: Interim 2023-01
+  type: interim
+  date: '2023-05-16'
+  location: Virtual
+  materials: https://datatracker.ietf.org/meeting/interim-2023-rasprg-01/session/rasprg
+  recording: https://www.youtube.com/watch?v=ZSZij-7MmeI
+- id: '117'
+  label: IETF 117
+  type: ietf
+  date: '2023-07-22'
+  location: San Francisco
+  materials: https://datatracker.ietf.org/meeting/117/session/rasprg
+  recording: null
+- id: '118'
+  label: IETF 118
+  type: ietf
+  date: '2023-11-06'
+  location: Prague
+  materials: https://datatracker.ietf.org/meeting/118/session/rasprg
+  recording: https://www.youtube.com/watch?v=X9kkUqwyCIQ
+- id: '119'
+  label: IETF 119
+  type: ietf
+  date: '2024-03-20'
+  location: Brisbane
+  materials: https://datatracker.ietf.org/meeting/119/session/rasprg
+  recording: https://www.youtube.com/watch?v=atC6XLnvKZ8
+- id: '120'
+  label: IETF 120
+  type: ietf
+  date: '2024-07-24'
+  location: Vancouver
+  materials: https://datatracker.ietf.org/meeting/120/session/rasprg
+  recording: https://www.youtube.com/watch?v=Pu3hGjjQzQM
+- id: '121'
+  label: IETF 121
+  type: ietf
+  date: '2024-11-08'
+  location: Dublin
+  materials: https://datatracker.ietf.org/meeting/121/session/rasprg
+  recording: https://www.youtube.com/watch?v=iB_I82qPJrk
+- id: '122'
+  label: IETF 122
+  type: ietf
+  date: '2025-03-15'
+  location: Bangkok
+  materials: https://datatracker.ietf.org/meeting/122/session/rasprg
+  recording: null
+- id: '123'
+  label: IETF 123
+  type: ietf
+  date: '2025-07-23'
+  location: Madrid
+  materials: https://datatracker.ietf.org/meeting/123/session/rasprg
+  recording: https://www.youtube.com/watch?v=TPO5GeVGPAY
+- id: '124'
+  label: IETF 124
+  type: ietf
+  date: '2025-11-05'
+  location: Montreal
+  materials: https://datatracker.ietf.org/meeting/124/session/rasprg
+  recording: https://youtu.be/rlYnQ5V8B64
+- id: '125'
+  label: IETF 125
+  type: ietf
+  date: '2026-03-19'
+  location: Shenzhen
+  materials: https://datatracker.ietf.org/meeting/125/session/rasprg
+  recording: https://youtu.be/1fCGSjDeWZ4
+- id: interim-2026-rasprg-01
+  label: Interim 2026-01
+  type: interim
+  date: '2026-05-07'
+  location: Virtual
+  materials: https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/session/rasprg
+  recording: https://youtu.be/VwmDHGDIY7w
+- id: '126'
+  label: IETF 126
+  type: ietf
+  date: '2026-07-23'
+  location: Vienna
+  materials: https://datatracker.ietf.org/meeting/126/session/rasprg
+  recording: https://youtu.be/wUe1AVWD2Cc
+- id: '127'
+  label: IETF 127
+  type: ietf
+  date: '2026-11-19'
+  location: San Francisco
+  materials: https://datatracker.ietf.org/meeting/127/session/rasprg
+  recording: null
