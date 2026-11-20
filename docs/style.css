@@ -11,6 +11,8 @@ h1 small { font-size: 60%; }
 .navbar-brand { font-weight: 600; }
 
 .topic-btn .badge { font-weight: 500; }
+/* Selected topics: darker fill plus a ring, so they stand out among the solid buttons. */
+.topic-btn.active { box-shadow: 0 0 0 .2rem rgba(var(--bs-primary-rgb), .35); }
 
 .meeting-head { font-size: 1.15rem; }
 .meeting-head small a { white-space: nowrap; }

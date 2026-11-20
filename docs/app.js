@@ -82,7 +82,7 @@
     $("topics").innerHTML = DATA.topics.map((t) => {
       const n = base.filter((p) => (p.topics || []).includes(t.id)).length;
       const on = state.topics.has(t.id);
-      return `<button type="button" class="btn btn-sm topic-btn ${on ? "btn-primary" : "btn-outline-primary"}" data-topic="${esc(t.id)}" aria-pressed="${on}" title="${esc(t.description)}">${esc(t.label)} <span class="badge ${on ? "text-bg-light" : "text-bg-secondary"} ms-1">${n}</span></button>`;
+      return `<button type="button" class="btn btn-sm btn-primary topic-btn${on ? " active" : ""}" data-topic="${esc(t.id)}" aria-pressed="${on}" title="${esc(t.description)}">${on ? `<i class="bi bi-check-lg me-1" aria-hidden="true"></i>` : ""}${esc(t.label)} <span class="badge rounded-pill text-bg-light ms-1">${n}</span></button>`;
     }).join("");
   }
 
