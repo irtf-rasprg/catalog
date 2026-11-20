@@ -15,21 +15,38 @@ can be filtered by topic, meeting, presenter and resource type. Every filtered v
 | `data/abstracts.yaml` | Talk abstracts quoted from the session agendas, keyed by presentation id. |
 | `data/meetings.yaml` | rasprg sessions (IETF meetings and interims), with materials and recording links. |
 | `data/topics.yaml` | Topic taxonomy used to categorize presentations. |
-| `scripts/refresh.py` | Pulls new sessions and slides from the Datatracker API and adds them as stubs. |
+| `scripts/refresh.py` | Pulls new sessions, slides, recordings and agendas from the Datatracker API; new decks become stubs. |
 | `scripts/build.py` | Validates the YAML and writes `docs/data.json`. |
 | `docs/` | Static site (no build step; Bootstrap and Bootstrap Icons are vendored in `docs/vendor/`), suitable for GitHub Pages. |
 
-## Updating after a meeting
+## Automatic updates
+
+`.github/workflows/refresh.yml` runs `refresh.py` and `build.py` on a schedule:
+daily in March, April, July, August, November and December (each IETF meeting
+month and the month after), and every Monday the rest of the year for interims.
+It can also be started by hand from the Actions tab ("Run workflow").
+
+When the Datatracker has something new (a meeting, a slide deck, a recording or
+agenda link), the workflow opens a pull request on the `automated/catalog-refresh`
+branch, assigned to the chairs for review. The PR body lists each new deck as a
+checklist: fill in presenters, topics, abstract and resources on that branch,
+run `build.py`, and merge. While that PR is open, later runs skip, so hand edits
+on the branch are never overwritten. Nothing is published until the PR is merged.
+
+Repository settings this needs: Settings → Actions → General → Workflow
+permissions → "Allow GitHub Actions to create and approve pull requests".
+
+## Updating by hand
 
 ```sh
 pip install -r requirements.txt
-python scripts/refresh.py      # adds new meetings and slide decks (needs_review: true)
+python scripts/refresh.py      # adds new meetings, recordings/agendas, slide decks (needs_review: true)
 # edit data/presentations.yaml: set presenters, affiliation, kind and topics
 # from the meeting agenda, then delete the needs_review line
 python scripts/build.py        # validates, regenerates docs/data.json and cache-busts CSS/JS links
 ```
 
-`refresh.py` never overwrites existing entries, so curated fields are safe.
+`refresh.py` never overwrites existing entries or links that are already set, so curated fields are safe.
 CI runs `build.py` on every pull request and fails if the data is invalid or
 `docs/data.json` was not regenerated.
 

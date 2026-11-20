@@ -1,0 +1,85 @@
+name: Refresh catalog from Datatracker
+
+# IETF meetings are in March, July and November. Check daily during each
+# meeting month and the month after (when slides and recordings get posted),
+# and weekly the rest of the year to catch interims. Run by hand any time from
+# the Actions tab ("Run workflow").
+on:
+  schedule:
+    - cron: "17 12 * 3,4,7,8,11,12 *"   # daily, meeting months + following month
+    - cron: "17 12 * 1,2,5,6,9,10 1"    # Mondays, other months
+  workflow_dispatch:
+
+permissions:
+  contents: write        # push the refresh branch
+  pull-requests: write   # open the PR
+  actions: write         # keepalive (re-enable this workflow)
+
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
+
+env:
+  BRANCH: automated/catalog-refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity. Re-enabling it through the API on every run resets that timer
+      # without adding commits.
+      - name: Keep the schedule alive
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/refresh.yml/enable" || true
+
+      # Don't clobber an open refresh PR, which may hold hand edits (presenters,
+      # topics, abstracts). The next run after it is merged or closed picks up
+      # anything newer.
+      - name: Skip if a refresh PR is already open
+        id: open_pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh pr list --head "$BRANCH" --state open --json number --jq length)
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+          if [ "$n" != "0" ]; then echo "::notice::Refresh PR already open on $BRANCH; skipping."; fi
+
+      - uses: actions/setup-python@v5
+        if: steps.open_pr.outputs.count == '0'
+        with:
+          python-version: "3.12"
+
+      - name: Pull from Datatracker and rebuild
+        id: refresh
+        if: steps.open_pr.outputs.count == '0'
+        run: |
+          pip install -r requirements.txt
+          python scripts/refresh.py --summary "$RUNNER_TEMP/summary.md"
+          python scripts/build.py
+          if [ -f "$RUNNER_TEMP/summary.md" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # Opens a PR only if refresh.py changed something. PRs opened with the
+      # built-in token don't trigger other workflows, so validation runs above
+      # (build.py fails the job on invalid data).
+      - name: Open pull request
+        if: steps.refresh.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: ${{ env.BRANCH }}
+          delete-branch: true
+          add-paths: |
+            data/**
+            docs/**
+          commit-message: Refresh catalog from Datatracker
+          title: Catalog refresh from Datatracker
+          body-path: ${{ runner.temp }}/summary.md
+          assignees: aretana
+          reviewers: aretana
