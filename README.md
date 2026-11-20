@@ -74,6 +74,6 @@ Presenter names and affiliations come from the published session agendas and min
 
 ## License
 
-Code is [MIT](LICENSE). Catalog data is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Code is [MIT](LICENSE). Catalog data is public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 Linked slides and quoted abstracts are IRTF Contributions and stay under the
 IETF/IRTF IPR terms (BCP 78/79, Note Well). Details in [LICENSE.md](LICENSE.md).
