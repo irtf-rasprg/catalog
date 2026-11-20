@@ -161,14 +161,14 @@
       .map((m) => ({ m, items: rows.filter((p) => p.meeting === m.id) }))
       .filter((g) => g.items.length);
     $("list").innerHTML = groups.map(({ m, items }) => `<section class="card mb-3">
-      <div class="card-header d-flex flex-wrap align-items-baseline gap-2">
-        <h2 class="meeting-head mb-0 me-2">${esc(m.label)}</h2>
-        <small class="text-body-secondary">${esc(m.date)}${m.location ? " · " + esc(m.location) : ""}</small>
-        <small class="ms-auto d-flex gap-3">
-          ${m.agenda ? `<a href="${esc(m.agenda)}" ${ext}><i class="bi bi-list-ul me-1" aria-hidden="true"></i>Agenda</a>` : ""}
-          <a href="${esc(m.materials)}" ${ext}><i class="bi bi-folder2-open me-1" aria-hidden="true"></i>Materials</a>
-          ${m.recording ? `<a href="${esc(m.recording)}" ${ext}><i class="bi bi-camera-video me-1" aria-hidden="true"></i>Recording</a>` : ""}
-        </small>
+      <div class="card-header d-flex flex-wrap align-items-center gap-2">
+        <h2 class="meeting-head mb-0">${esc(m.label)}</h2>
+        <small class="text-body-secondary me-2">${esc(m.date)}${m.location ? " · " + esc(m.location) : ""}</small>
+        <div class="d-flex flex-wrap gap-1">
+          ${m.agenda ? `<a class="btn btn-sm btn-teal" href="${esc(m.agenda)}" ${ext}><i class="bi bi-list-ul me-1" aria-hidden="true"></i>Agenda</a>` : ""}
+          <a class="btn btn-sm btn-teal" href="${esc(m.materials)}" ${ext}><i class="bi bi-folder2-open me-1" aria-hidden="true"></i>Materials</a>
+          ${m.recording ? `<a class="btn btn-sm btn-teal" href="${esc(m.recording)}" ${ext}><i class="bi bi-camera-video me-1" aria-hidden="true"></i>Recording</a>` : ""}
+        </div>
       </div>
       <ul class="list-group list-group-flush">${items.map(card).join("")}</ul></section>`).join("");
   }

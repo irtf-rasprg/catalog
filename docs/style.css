@@ -16,6 +16,14 @@ h1 small { font-size: 60%; }
 
 .meeting-head { font-size: 1.15rem; }
 .meeting-head small a { white-space: nowrap; }
+/* Meeting-level links (Agenda/Materials/Recording): solid teal, distinct from the
+   blue talk buttons. #0f7c6c on white text is 5.1:1 (WCAG AA). */
+.btn-teal {
+  --bs-btn-color: #fff; --bs-btn-bg: #0f7c6c; --bs-btn-border-color: #0f7c6c;
+  --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #0b6b61; --bs-btn-hover-border-color: #0b6b61;
+  --bs-btn-active-color: #fff; --bs-btn-active-bg: #0a5f56; --bs-btn-active-border-color: #0a5f56;
+  --bs-btn-focus-shadow-rgb: 15, 124, 108;
+}
 
 .talk-title { font-weight: 600; }
 .talk .who .btn-link { --bs-btn-padding-x: 0; --bs-btn-padding-y: 0; vertical-align: baseline; font-size: inherit; }
