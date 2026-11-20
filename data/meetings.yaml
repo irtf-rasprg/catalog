@@ -6,6 +6,7 @@ meetings:
   location: Yokohama
   materials: https://datatracker.ietf.org/meeting/116/session/rasprg
   recording: https://www.youtube.com/watch?v=Tp47dCQPyMQ
+  agenda: https://datatracker.ietf.org/doc/agenda-116-rasprg/
 - id: interim-2023-rasprg-01
   label: Interim 2023-01
   type: interim
@@ -13,6 +14,7 @@ meetings:
   location: Virtual
   materials: https://datatracker.ietf.org/meeting/interim-2023-rasprg-01/session/rasprg
   recording: https://www.youtube.com/watch?v=ZSZij-7MmeI
+  agenda: https://datatracker.ietf.org/doc/agenda-interim-2023-rasprg-01-rasprg-01/
 - id: '117'
   label: IETF 117
   type: ietf
@@ -20,6 +22,7 @@ meetings:
   location: San Francisco
   materials: https://datatracker.ietf.org/meeting/117/session/rasprg
   recording: null
+  agenda: null
 - id: '118'
   label: IETF 118
   type: ietf
@@ -27,6 +30,7 @@ meetings:
   location: Prague
   materials: https://datatracker.ietf.org/meeting/118/session/rasprg
   recording: https://www.youtube.com/watch?v=X9kkUqwyCIQ
+  agenda: https://datatracker.ietf.org/doc/agenda-118-rasprg/
 - id: '119'
   label: IETF 119
   type: ietf
@@ -34,6 +38,7 @@ meetings:
   location: Brisbane
   materials: https://datatracker.ietf.org/meeting/119/session/rasprg
   recording: https://www.youtube.com/watch?v=atC6XLnvKZ8
+  agenda: https://datatracker.ietf.org/doc/agenda-119-rasprg/
 - id: '120'
   label: IETF 120
   type: ietf
@@ -41,6 +46,7 @@ meetings:
   location: Vancouver
   materials: https://datatracker.ietf.org/meeting/120/session/rasprg
   recording: https://www.youtube.com/watch?v=Pu3hGjjQzQM
+  agenda: https://datatracker.ietf.org/doc/agenda-120-rasprg/
 - id: '121'
   label: IETF 121
   type: ietf
@@ -48,6 +54,7 @@ meetings:
   location: Dublin
   materials: https://datatracker.ietf.org/meeting/121/session/rasprg
   recording: https://www.youtube.com/watch?v=iB_I82qPJrk
+  agenda: https://datatracker.ietf.org/doc/agenda-121-rasprg/
 - id: '122'
   label: IETF 122
   type: ietf
@@ -55,6 +62,7 @@ meetings:
   location: Bangkok
   materials: https://datatracker.ietf.org/meeting/122/session/rasprg
   recording: null
+  agenda: null
 - id: '123'
   label: IETF 123
   type: ietf
@@ -62,6 +70,7 @@ meetings:
   location: Madrid
   materials: https://datatracker.ietf.org/meeting/123/session/rasprg
   recording: https://www.youtube.com/watch?v=TPO5GeVGPAY
+  agenda: https://datatracker.ietf.org/doc/agenda-123-rasprg/
 - id: '124'
   label: IETF 124
   type: ietf
@@ -69,6 +78,7 @@ meetings:
   location: Montreal
   materials: https://datatracker.ietf.org/meeting/124/session/rasprg
   recording: https://youtu.be/rlYnQ5V8B64
+  agenda: https://datatracker.ietf.org/doc/agenda-124-rasprg/
 - id: '125'
   label: IETF 125
   type: ietf
@@ -76,6 +86,7 @@ meetings:
   location: Shenzhen
   materials: https://datatracker.ietf.org/meeting/125/session/rasprg
   recording: https://youtu.be/1fCGSjDeWZ4
+  agenda: https://datatracker.ietf.org/doc/agenda-125-rasprg/
 - id: interim-2026-rasprg-01
   label: Interim 2026-01
   type: interim
@@ -83,6 +94,7 @@ meetings:
   location: Virtual
   materials: https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/session/rasprg
   recording: https://youtu.be/VwmDHGDIY7w
+  agenda: https://datatracker.ietf.org/doc/agenda-interim-2026-rasprg-01-rasprg-01/
 - id: '126'
   label: IETF 126
   type: ietf
@@ -90,6 +102,7 @@ meetings:
   location: Vienna
   materials: https://datatracker.ietf.org/meeting/126/session/rasprg
   recording: https://youtu.be/wUe1AVWD2Cc
+  agenda: https://datatracker.ietf.org/doc/agenda-126-rasprg/
 - id: '127'
   label: IETF 127
   type: ietf
@@ -97,3 +110,4 @@ meetings:
   location: San Francisco
   materials: https://datatracker.ietf.org/meeting/127/session/rasprg
   recording: null
+  agenda: https://datatracker.ietf.org/doc/agenda-127-rasprg/
