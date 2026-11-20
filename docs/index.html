@@ -1,50 +1,102 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RASPRG Presentations Catalog</title>
 <meta name="description" content="Catalog of presentations given at the IRTF Research and Analysis of Standard-Setting Processes Research Group (rasprg).">
+<script>
+  // Follow the OS light/dark preference, like the Datatracker's "auto" theme.
+  (function () {
+    var m = window.matchMedia("(prefers-color-scheme: dark)");
+    var set = function () { document.documentElement.setAttribute("data-bs-theme", m.matches ? "dark" : "light"); };
+    set(); if (m.addEventListener) m.addEventListener("change", set);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header class="site">
-  <div class="wrap">
-    <h1>RASPRG presentations</h1>
-    <p class="lede">Talks given at the IRTF <a href="https://datatracker.ietf.org/rg/rasprg/about/">Research and Analysis of Standard-Setting Processes Research Group</a>, with slides, by meeting, topic and presenter.</p>
+<body class="navbar-offset">
+<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand fixed-top bg-secondary-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./"><i class="bi bi-collection me-2" aria-hidden="true"></i>RASPRG Catalog</a>
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item"><a class="nav-link active" aria-current="page" href="./">Presentations</a></li>
+      <li class="nav-item d-none d-sm-block"><a class="nav-link" href="https://datatracker.ietf.org/rg/rasprg/about/" target="_blank" rel="noopener">About rasprg</a></li>
+      <li class="nav-item d-none d-md-block"><a class="nav-link" href="https://datatracker.ietf.org/rg/rasprg/meetings/" target="_blank" rel="noopener">Meetings</a></li>
+    </ul>
+    <a class="nav-link" href="https://github.com/irtf-rasprg/catalog" target="_blank" rel="noopener" title="Source on GitHub"><i class="bi bi-github" aria-hidden="true"></i><span class="d-none d-md-inline ms-1">GitHub</span></a>
   </div>
-</header>
+</nav>
 
-<main class="wrap">
-  <section class="filters" aria-label="Filters">
-    <label class="search">
-      <span>Search</span>
-      <input id="q" type="search" placeholder="Title, presenter, affiliation…" autocomplete="off">
-    </label>
-    <label>
-      <span>Meeting</span>
-      <select id="meeting"><option value="">All meetings</option></select>
-    </label>
-    <label>
-      <span>Presenter</span>
-      <select id="presenter"><option value="">All presenters</option></select>
-    </label>
-    <label class="check">
-      <input id="chairs" type="checkbox"> <span>Include chairs' slides</span>
-    </label>
-    <button id="reset" type="button">Reset</button>
-  </section>
+<main class="container-fluid pt-3" id="content">
+  <div class="mx-lg-3">
+  <h1 class="mb-3">Presentations
+    <br><small class="text-body-secondary">Research and Analysis of Standard-Setting Processes Research Group (rasprg)</small>
+  </h1>
 
-  <section aria-label="Topics">
-    <div id="topics" class="chips" role="group" aria-label="Filter by topic"></div>
-  </section>
+  <form class="row g-2 align-items-end mb-2" id="filters" aria-label="Filters" onsubmit="return false">
+    <div class="col-12 col-lg-4">
+      <label for="q" class="form-label small text-body-secondary mb-1">Search</label>
+      <input id="q" type="search" class="form-control" placeholder="Title, presenter, abstract…" autocomplete="off">
+    </div>
+    <div class="col-6 col-md-3 col-lg-2">
+      <label for="meeting" class="form-label small text-body-secondary mb-1">Meeting</label>
+      <select id="meeting" class="form-select"><option value="">All meetings</option></select>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2">
+      <label for="presenter" class="form-label small text-body-secondary mb-1">Presenter</label>
+      <select id="presenter" class="form-select"><option value="">All presenters</option></select>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2">
+      <label for="rtype" class="form-label small text-body-secondary mb-1">Has resource</label>
+      <select id="rtype" class="form-select"><option value="">Any</option></select>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2">
+      <button id="reset" type="button" class="btn btn-outline-secondary w-100"><i class="bi bi-x-circle me-1" aria-hidden="true"></i>Reset</button>
+    </div>
+  </form>
 
-  <p id="count" class="count" aria-live="polite"></p>
+  <div id="topics" class="d-flex flex-wrap gap-1 mb-2" role="group" aria-label="Filter by topic"></div>
+
+  <div class="d-flex flex-wrap align-items-center gap-3 border-top border-bottom py-2 mb-3 small">
+    <span id="count" class="fw-semibold me-auto" aria-live="polite"></span>
+    <div class="form-check form-switch mb-0">
+      <input class="form-check-input" type="checkbox" role="switch" id="allAbs">
+      <label class="form-check-label" for="allAbs">Show all abstracts</label>
+    </div>
+    <div class="form-check form-switch mb-0">
+      <input class="form-check-input" type="checkbox" role="switch" id="allRes">
+      <label class="form-check-label" for="allRes">Show all resources</label>
+    </div>
+    <div class="form-check form-switch mb-0">
+      <input class="form-check-input" type="checkbox" role="switch" id="chairs">
+      <label class="form-check-label" for="chairs">Include chairs' slides</label>
+    </div>
+  </div>
+
   <div id="list"></div>
+  </div>
 </main>
 
-<footer class="wrap foot">
-  <p>Data from the <a href="https://datatracker.ietf.org/rg/rasprg/meetings/">IETF Datatracker</a>. Corrections and topic changes: edit <code>data/*.yaml</code> in this repository and open a pull request.</p>
+<footer class="border-top mt-5 py-4 bg-light-subtle text-center small">
+  <div class="mb-2">
+    <a href="https://www.irtf.org/" class="p-2">IRTF</a>
+    <a href="https://datatracker.ietf.org/rg/rasprg/about/" class="p-2">rasprg</a>
+    <a href="https://datatracker.ietf.org/rg/rasprg/meetings/" class="p-2">Meeting materials</a>
+    <a href="https://github.com/irtf-rasprg/catalog" class="p-2">Source</a>
+    <a href="https://github.com/irtf-rasprg/catalog/blob/main/LICENSE.md" class="p-2">License</a>
+  </div>
+  <div class="text-body-secondary px-3">
+    Catalog data CC0 (public domain), code MIT. Slides and quoted abstracts are IETF/IRTF Contributions under
+    <a href="https://www.ietf.org/about/note-well/">the Note Well</a> (BCP 78/79).
+    Not an official IETF or IRTF service. Corrections: edit <code>data/*.yaml</code> and open a pull request.
+  </div>
 </footer>
 <script src="app.js"></script>
 </body>

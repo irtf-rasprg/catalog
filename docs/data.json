@@ -49,7 +49,8 @@
    "date": "2023-03-30",
    "location": "Yokohama",
    "materials": "https://datatracker.ietf.org/meeting/116/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=Tp47dCQPyMQ"
+   "recording": "https://www.youtube.com/watch?v=Tp47dCQPyMQ",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-116-rasprg/"
   },
   {
    "id": "interim-2023-rasprg-01",
@@ -58,7 +59,8 @@
    "date": "2023-05-16",
    "location": "Virtual",
    "materials": "https://datatracker.ietf.org/meeting/interim-2023-rasprg-01/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=ZSZij-7MmeI"
+   "recording": "https://www.youtube.com/watch?v=ZSZij-7MmeI",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-interim-2023-rasprg-01-rasprg-01/"
   },
   {
    "id": "117",
@@ -67,7 +69,8 @@
    "date": "2023-07-22",
    "location": "San Francisco",
    "materials": "https://datatracker.ietf.org/meeting/117/session/rasprg",
-   "recording": null
+   "recording": null,
+   "agenda": null
   },
   {
    "id": "118",
@@ -76,7 +79,8 @@
    "date": "2023-11-06",
    "location": "Prague",
    "materials": "https://datatracker.ietf.org/meeting/118/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=X9kkUqwyCIQ"
+   "recording": "https://www.youtube.com/watch?v=X9kkUqwyCIQ",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-118-rasprg/"
   },
   {
    "id": "119",
@@ -85,7 +89,8 @@
    "date": "2024-03-20",
    "location": "Brisbane",
    "materials": "https://datatracker.ietf.org/meeting/119/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=atC6XLnvKZ8"
+   "recording": "https://www.youtube.com/watch?v=atC6XLnvKZ8",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-119-rasprg/"
   },
   {
    "id": "120",
@@ -94,7 +99,8 @@
    "date": "2024-07-24",
    "location": "Vancouver",
    "materials": "https://datatracker.ietf.org/meeting/120/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=Pu3hGjjQzQM"
+   "recording": "https://www.youtube.com/watch?v=Pu3hGjjQzQM",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-120-rasprg/"
   },
   {
    "id": "121",
@@ -103,7 +109,8 @@
    "date": "2024-11-08",
    "location": "Dublin",
    "materials": "https://datatracker.ietf.org/meeting/121/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=iB_I82qPJrk"
+   "recording": "https://www.youtube.com/watch?v=iB_I82qPJrk",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-121-rasprg/"
   },
   {
    "id": "122",
@@ -112,7 +119,8 @@
    "date": "2025-03-15",
    "location": "Bangkok",
    "materials": "https://datatracker.ietf.org/meeting/122/session/rasprg",
-   "recording": null
+   "recording": null,
+   "agenda": null
   },
   {
    "id": "123",
@@ -121,7 +129,8 @@
    "date": "2025-07-23",
    "location": "Madrid",
    "materials": "https://datatracker.ietf.org/meeting/123/session/rasprg",
-   "recording": "https://www.youtube.com/watch?v=TPO5GeVGPAY"
+   "recording": "https://www.youtube.com/watch?v=TPO5GeVGPAY",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-123-rasprg/"
   },
   {
    "id": "124",
@@ -130,7 +139,8 @@
    "date": "2025-11-05",
    "location": "Montreal",
    "materials": "https://datatracker.ietf.org/meeting/124/session/rasprg",
-   "recording": "https://youtu.be/rlYnQ5V8B64"
+   "recording": "https://youtu.be/rlYnQ5V8B64",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-124-rasprg/"
   },
   {
    "id": "125",
@@ -139,7 +149,8 @@
    "date": "2026-03-19",
    "location": "Shenzhen",
    "materials": "https://datatracker.ietf.org/meeting/125/session/rasprg",
-   "recording": "https://youtu.be/1fCGSjDeWZ4"
+   "recording": "https://youtu.be/1fCGSjDeWZ4",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-125-rasprg/"
   },
   {
    "id": "interim-2026-rasprg-01",
@@ -148,7 +159,8 @@
    "date": "2026-05-07",
    "location": "Virtual",
    "materials": "https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/session/rasprg",
-   "recording": "https://youtu.be/VwmDHGDIY7w"
+   "recording": "https://youtu.be/VwmDHGDIY7w",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-interim-2026-rasprg-01-rasprg-01/"
   },
   {
    "id": "126",
@@ -157,7 +169,8 @@
    "date": "2026-07-23",
    "location": "Vienna",
    "materials": "https://datatracker.ietf.org/meeting/126/session/rasprg",
-   "recording": "https://youtu.be/wUe1AVWD2Cc"
+   "recording": "https://youtu.be/wUe1AVWD2Cc",
+   "agenda": "https://datatracker.ietf.org/doc/agenda-126-rasprg/"
   },
   {
    "id": "127",
@@ -166,7 +179,8 @@
    "date": "2026-11-19",
    "location": "San Francisco",
    "materials": "https://datatracker.ietf.org/meeting/127/session/rasprg",
-   "recording": null
+   "recording": null,
+   "agenda": "https://datatracker.ietf.org/doc/agenda-127-rasprg/"
   }
  ],
  "presentations": [
@@ -195,7 +209,16 @@
     "governance"
    ],
    "slides": "https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-hard-work-hum-final-final",
-   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-hard-work-hum-final-final/"
+   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-hard-work-hum-final-final/",
+   "resources": [
+    {
+     "type": "paper",
+     "title": "Corinne Cath, Ph.D. thesis on the IETF (University of Oxford)",
+     "url": "https://corinnecath.com/wp-content/uploads/2021/09/CathCorinne-Thesis-DphilInformationCommunicationSocialSciences.pdf",
+     "source": "agenda"
+    }
+   ],
+   "abstract": "In this talk, dr. Corinne Cath will explain how she used ethnography (a\nqualitative method that studies people in their natural environment) to\nstudy the IETF. She will outline the basics of ethnography, how to apply it\nto the high-tech and elite nature of Internet standards bodies, and what\nunique data about politics and power can be drawn from understanding the\nIETF's running code through the people that craft it. This talk draws on her\nPh.D. research on the IETF's culture and practices, University of Oxford\n(2016-2021)."
   },
   {
    "id": "slides-116-rasprg-data-driver-reviewer-recommendations",
@@ -210,7 +233,21 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-data-driver-reviewer-recommendations",
-   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-data-driver-reviewer-recommendations/"
+   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-data-driver-reviewer-recommendations/",
+   "resources": [
+    {
+     "type": "tool",
+     "title": "Sodestream reviewer recommender",
+     "url": "https://sodestream.github.io/recommender.html",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Sodestream project",
+     "url": "https://sodestream.github.io/",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-116-rasprg-the-expanding-universe-of-bigbang",
@@ -224,7 +261,27 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/116/materials/slides-116-rasprg-the-expanding-universe-of-bigbang",
-   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-the-expanding-universe-of-bigbang/"
+   "doc": "https://datatracker.ietf.org/doc/slides-116-rasprg-the-expanding-universe-of-bigbang/",
+   "resources": [
+    {
+     "type": "code",
+     "title": "BigBang",
+     "url": "https://github.com/datactive/bigbang",
+     "source": "slides"
+    },
+    {
+     "type": "code",
+     "title": "BigBang dashboard",
+     "url": "https://github.com/datactive/dashboard",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Standards and Governance",
+     "url": "https://standardsandgovernance.net/",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-116-rasprg-some-research-and-methodologies-with-ietf-data",
@@ -294,7 +351,8 @@
     "geopolitics-policy"
    ],
    "slides": "https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-standards-tracker",
-   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-standards-tracker/"
+   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-standards-tracker/",
+   "abstract": "The goal of the Internet Standards Observatory is to prevent Internet\nfragmentation. The observatory is working on the development tools and\nresources to understand what Internet standards proposals are currently\nunder discussion that could potentially challenge interoperability and\nsignificantly transform addressing, naming, networking and routing on the\nInternet.\n\nDuring the session, we will present our Standards Tracker for the ITU-T. The\ntracker has been developed using the Data Analytics Platform of the DNS\nResearch Federation. Presenters will explain how the tracker works, how it\nwas developed and how we process information on our platform. Presenters\nwill discuss ongoing efforts to launch an IETF Standards Tracker, and briefly\nintroduce forthcoming research supported by the Internet Standards\nObservatory."
   },
   {
    "id": "slides-118-rasprg-bigbang-update",
@@ -309,7 +367,16 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-bigbang-update",
-   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-bigbang-update/"
+   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-bigbang-update/",
+   "resources": [
+    {
+     "type": "code",
+     "title": "BigBang",
+     "url": "https://github.com/datactive/bigbang",
+     "source": "slides"
+    }
+   ],
+   "abstract": "Sebastian Benthall will provide a brief update on BigBang progress. Version\n0.5 has been released with the contributions from the IETF 116 Hackathon.\nNew scripts that assess the dominance of actors in working group leadership,\ndraft authorship, and mailing lists are being built and refined. We\nanticipate adding more W3C data ingress features by the end of the calendar\nyear."
   },
   {
    "id": "slides-118-rasprg-hares-consensus-decisions-iesg",
@@ -324,7 +391,8 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-hares-consensus-decisions-iesg",
-   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-hares-consensus-decisions-iesg/"
+   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-hares-consensus-decisions-iesg/",
+   "abstract": "RFC 2026 specifies that IETF RFC publication has the following steps: 1)\nInternet-Draft (I-D) creation, 2) WG requests publication of an I-D as RFC,\n3) IESG review and approval of I-D as RFC, and 4) publication of the RFC by\nthe RFC editor. Few studies have examined the effectiveness of the IESG as a\ngroup that reviews and approves RFCs. The IESG operates as a virtual\ntop-management team (TMT) process that can be effective or ineffective based\non group behaviors within the IESG. This longitudinal mixed-mode study\nexamined whether solidarity and conflict were group behaviors that predicted\neffective team consensus decision-making in the Internet Engineering\nSteering Group (IESG).\n\nThis research examined the IESG consensus decision-making in the 28 years of\nconsensus decision-making (1989-2016) from five different viewpoints (three\ndifferent types of historical data and two surveys). Historiometric best\npractices guided the design of collection and IPA analysis of the historical\ndata so that historical data could be triangulated with two surveys. Survey\nquestions from Koster and Sanders' (2006) research on solidarity, Jehn's\nIntragroup Conflict Scale (1995), and MacKenzie, Podsakoff, and Fetter's\n(1991) research on OCB were used as a basis for IPA analysis and the survey.\nThe IPA analysis examined 3,458 group consensus decisions for group\nbehaviors, with over 39,186 individual behavioral patterns with components\nof conflict, solidarity, or OCB. The researcher surveyed all IESG members\nfrom 1989-2016 in two surveys (given in 2013 and 2017). This research\nconcludes that solidarity was an antecedent to effective team consensus\ndecision-making in the IESG, but that conflict has a complex relationship to\neffective consensus decision-making in the IESG. Increases in solidarity\nbehaviors in the TMT might increase the effectiveness of consensus decisions\nin team consensus decision-making.\n\nKey takeaways: (1) IESG effectiveness in making decisions can be predicted\nby solidarity; (2) triangulation of a quantity of quality data is crucial to\nunderstanding the IESG process; (3) conflict in IESG is complex due to the\nneed for task conflict to create standards and negative public opinion on\nrelationship conflict in IESG and IETF public meetings. Therefore,\nrelationship conflict is driven into the undercurrents of the IESG TMT."
   },
   {
    "id": "slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes",
@@ -338,7 +406,8 @@
     "community-culture"
    ],
    "slides": "https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes",
-   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes/"
+   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes/",
+   "abstract": "An important concept in organisational behaviour is how hierarchy affects\nthe voice of individuals, whereby members of a given organisation exhibit\ndiffering power relations based on their hierarchical position. This\npresentation develops large-scale computational techniques utilising\ntemporal network analysis to measure the effect that organisational\nhierarchy has on communication patterns throughout the IETF, focusing on the\nstructure of pairwise interactions between individuals.\n\nA particularly useful feature of the IETF is a transparent hierarchy, where\nparticipants take on explicit roles (e.g., Area Directors, Working Group\nChairs), and because its processes are open we have visibility into the\ncommunication of people at different hierarchy levels over a long time\nperiod. Exploiting this, we utilise a temporal network dataset of 989,911\nemail interactions among 23,741 participants to study how hierarchy impacts\ncommunication patterns. We show that the middle levels of the IETF are\ngrowing in terms of their dominance in communications. Higher levels\nconsistently experience a higher proportion of incoming communication than\nlower levels, with higher levels initiating more communications too. We\nfind that, overall, communication tends to flow \"up\" the hierarchy more than\n\"down\". Finally, we find that communication with higher-levels is\nassociated with future communication more than for lower-levels, which we\ninterpret as \"facilitation\". We conclude by discussing the implications\nthis has on patterns within the wider IETF."
   },
   {
    "id": "slides-118-rasprg-cdns-states",
@@ -352,7 +421,58 @@
     "geopolitics-policy"
    ],
    "slides": "https://datatracker.ietf.org/meeting/118/materials/slides-118-rasprg-cdns-states",
-   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-cdns-states/"
+   "doc": "https://datatracker.ietf.org/doc/slides-118-rasprg-cdns-states/",
+   "resources": [
+    {
+     "type": "reference",
+     "title": "scholarship.law.duke.edu/dlj_online/101",
+     "url": "https://scholarship.law.duke.edu/dlj_online/101/",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "www.cairn.info/revue-herodote-2014-1-page-3.htm",
+     "url": "https://www.cairn.info/revue-herodote-2014-1-page-3.htm",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "dl.acm.org/doi/abs/10.1145/3379479",
+     "url": "https://dl.acm.org/doi/abs/10.1145/3379479",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "academic.oup.com/cybersecurity/article/7/1/tyab018/6353268",
+     "url": "https://academic.oup.com/cybersecurity/article/7/1/tyab018/6353268",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "firstmonday.org/ojs/index.php/fm/article/view/11700",
+     "url": "https://firstmonday.org/ojs/index.php/fm/article/view/11700",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "aclanthology.org/2023.findings-acl.378",
+     "url": "https://aclanthology.org/2023.findings-acl.378/",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "direct.mit.edu/books/oa-monograph/4936/chapter/625914/Studying-Discourse-in-Internet-Governance-through",
+     "url": "https://direct.mit.edu/books/oa-monograph/4936/chapter/625914/Studying-Discourse-in-Internet-Governance-through",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Internet Society Pulse: Internet concentration",
+     "url": "https://pulse.internetsociety.org/concentration",
+     "source": "slides"
+    }
+   ],
+   "abstract": "What is the relationship between CDNs and state interests? Large CDNs\nintermediate most of internet traffic, yet how states view these\ninfrastructures (and vice versa) is understudied. This talk lays out a few\nlines of initial questioning, particularly the role of internet\nfragmentation in creating varying levels of dependence upon commercial CDN\nproviders. As moves toward internet sovereignty make some countries less\ndependent on CDNs than others, asymmetries emerge, in which countries with a\nstrategic focus on internet sovereignty may face fewer consequences during\nCDN outages than the (largely Western) countries that rely more heavily on\nthose providers. Could this asymmetry make CDNs a target of state-backed\ncyberattacks during a global conflict? I conclude by discussing this\nhypothetical, surveying the best available evidence from standards bodies\nand beyond about operational and other security practices at CDNs."
   },
   {
    "id": "slides-119-rasprg-chairs-slides",
@@ -379,7 +499,15 @@
     "ai-llm"
    ],
    "slides": "https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards",
-   "doc": "https://datatracker.ietf.org/doc/slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards/"
+   "doc": "https://datatracker.ietf.org/doc/slides-119-rasprg-llms-and-rfcgpt-leveraging-large-language-model-platforms-to-understand-standards/",
+   "resources": [
+    {
+     "type": "tool",
+     "title": "RFCGPT",
+     "url": "https://cryptography.consulting/rfcgpt",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-119-rasprg-internet-standards-tracker",
@@ -410,7 +538,15 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/119/materials/slides-119-rasprg-computationally-understanding-the-ietf-consensus-process",
-   "doc": "https://datatracker.ietf.org/doc/slides-119-rasprg-computationally-understanding-the-ietf-consensus-process/"
+   "doc": "https://datatracker.ietf.org/doc/slides-119-rasprg-computationally-understanding-the-ietf-consensus-process/",
+   "resources": [
+    {
+     "type": "slides",
+     "title": "Earlier talk: Characterizing the IETF through its consensus mechanisms (AIDWS 2021)",
+     "url": "https://datatracker.ietf.org/doc/slides-interim-2021-aidws-01-sessa-characterizing-the-ietf-through-its-consensus-mechanisms-priyanka-sinha-michael-ackermann-pabitra-mitra-arvind-singh-amit-kumar-/",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-119-rasprg-making-an-rfc-in-todays-ietf",
@@ -452,7 +588,8 @@
     "participation-diversity"
    ],
    "slides": "https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development",
-   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development/"
+   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development/",
+   "abstract": "This presentation provides an overview on how standards development can be\ngender biased due to the lack of data and women representation in the\ndevelopment process, including high tech sector such as AI and IoT. Women\ncan be vulnerable if standard is not protecting them as well as men. But we\ncan improve this situation by developing Gender-Responsive Standards (GRS),\nwhich acknowledge the distinct needs of different genders and take\nconcerted action to ensure that the impact of the standard is appropriate\nand provides equal benefit."
   },
   {
    "id": "slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite",
@@ -468,7 +605,8 @@
     "participation-diversity"
    ],
    "slides": "https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite",
-   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite/"
+   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite/",
+   "abstract": "When someone in a professional network achieves a position of power within\nthe profession, that person gains a bag of knowledge, connections, and\ninformal credits in favor of exchanges that can be used to increase the\nentire network's professional success. Does a random assignment of power to\nan individual increase the likelihood of publishing an Internet standard or\nhaving a new patent granted for someone in his/her network? We address this\nquestion by exploiting quasi-random variation in the selection of NomCom\nmembers. We compare the productivity of co-authors of volunteers randomly\nselected in NomCom with the productivity of co-authors of volunteers not\nselected. Preliminary results show that random selection increases the\nscientific productivity of co-authors, and this effect is stronger for\nnetworks of female leaders."
   },
   {
    "id": "slides-120-rasprg-arc-regenerative-communities",
@@ -482,7 +620,22 @@
     "community-culture"
    ],
    "slides": "https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-arc-regenerative-communities",
-   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-arc-regenerative-communities/"
+   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-arc-regenerative-communities/",
+   "resources": [
+    {
+     "type": "website",
+     "title": "Summer of Protocols 2024 cohort: ARC",
+     "url": "https://summerofprotocols.com/sop24-cohort#arc",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Group Works Deck pattern language",
+     "url": "https://groupworksdeck.org/",
+     "source": "slides"
+    }
+   ],
+   "abstract": "Summer of Protocols is an initiative of the Ethereum Foundation. We are in\nits 2nd cohort and were awarded a Protocol Orientering Grant (POG) to study\nan existing regenerative community that specializes in the development of\ninternet protocols: the IETF.\n\nThe IETF is kept alive by the energy of people and their decision to\nactively contribute their energy to the creation of the protocols they\ndevelop there. They also actively develop and participate in protocols that\nare generative forming the \"community protocols.\" It literally is a\nrecursive organization using its protocol processes to develop protocol\nprocesses for protocols.\n\nWe are using the Group Works Deck Pattern Language for bringing Life to\nMeetings and Other Gatherings and the Wise Democracy Pattern Language as\nlenses through which to understand the IETF community processes and\nculture. We are exploring other regenerative frameworks as potential\nadditional lenses. The project end date is August 31, 2024 and you can see\nprogress of our research on the public forum."
   },
   {
    "id": "slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides",
@@ -496,7 +649,8 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/120/materials/slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides",
-   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides/"
+   "doc": "https://datatracker.ietf.org/doc/slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides/",
+   "abstract": "Published by members of the W3C's Social Web Working Group (SocialWG) in\n2018, ActivityPub is the protocol that enables the fediverse, a collection\nof social media sites that can communicate with one another. The\nActivityPub-driven fediverse is now one of the most viable social media\nalternatives to come along in the past decade. It includes the microblogs\nMastodon, Misskey, and Meta's Threads, as well as image-sharing systems,\nblogging platforms, meeting planners, and dating apps. While ActivityPub has\nseen massive uptake, the development of ActivityPub has largely remained\nunexamined from a sociological perspective. As I argue in a forthcoming book\nabout the fediverse, ActivityPub is a non-standard standard. Specifically,\nthere are four aspects of ActivityPub that make it quite unique among W3C\nstandards. First, corporate social media companies were not involved.\nSecond, rather than focus on one or two standards, the SocialWG produced six\nother standards alongside ActivityPub. Third, ActivityPub (by far, the most\npopular SocialWG standard) almost did not happen due to internal conflicts\nin the SocialWG. Finally, a major portion of the ActivityPub standard is\nactually ignored by implementers in favor of bespoke APIs. The presentation\ndraws on interviews with the developers of ActivityPub and Mastodon, close\nreading of archival materials (such as the meeting minutes of the\nSocialWG), as well as critical code analysis of the ActivityPub protocol."
   },
   {
    "id": "slides-121-rasprg-01-chairs-welcome-agenda",
@@ -524,7 +678,8 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf",
-   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf/"
+   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf/",
+   "abstract": "We study the role of geography (physical distance and national borders) for\nindividuals' decisions to participate in standards development meetings.\nOur main analyses focus on 3GPP, a consortium of seven SDOs that develops\nstandards for mobile telecommunication standards. We find that both\ndistance and borders matter for individuals' attendance decisions. The\neffect of distance, but not the effect of borders, have become less\npronounced over time. We also find that these factors only matter for the\nemployees of smaller 3GPP stakeholders, not for employees of the ten most\nactive 3GPP stakeholders (accounting for approx. 50% of the attendance\nobservations). Furthermore, both distance and borders have a significantly\nstronger effect on the participation decisions of women, and a weaker\neffect on the participation decisions of more senior 3GPP participants as\nwell as more prolific patent inventors (a relevant measure of technical\nexpertise within the context of 3GPP). We find no significant evidence of\nintra-company substitution, and we find no evidence that the monetary cost\nof travel and visa requirements can account for the effects of distance and\nborders.\n\nIn this meeting, I will also present some analyses of the role of distance\nand borders for the attendance of IETF meetings. Attendance of IETF meetings\nis significantly more elastic to distance; but most of the main effects\nobserved in 3GPP also apply at IETF. In particular, women are significantly\nless likely to travel far to attend an IETF meeting, and are more likely to\nopt for remote participation.\n\nWomen, individuals from developing countries, and representatives of\nsmaller stakeholders are often significantly underrepresented in standards\ndevelopment meetings. Our findings suggest that uneven ability to engage in\nlong-distance travel may be one important driver of this\nunderrepresentation. Our findings have important implications for the\norganization of standards development activities, e.g. the choice of\nmeeting locations and the possibility of remote attendance."
   },
   {
    "id": "slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data",
@@ -538,7 +693,70 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data",
-   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data/"
+   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data/",
+   "resources": [
+    {
+     "type": "code",
+     "title": "Sodestream on GitHub",
+     "url": "https://github.com/sodestream",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Sodestream project",
+     "url": "https://sodestream.github.io/",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Mitigating topic bias when detecting decisions in dialogue",
+     "url": "https://sodestream.github.io/paper-mitigating-topic-bias-when-detecting-decisions-in-dialogue.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Characterising the IETF through the lens of RFC deployment",
+     "url": "https://sodestream.github.io/paper-characterising-the-ietf-through-the-lens-of-rfc-deployment.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "The web we weave: untangling the social graph of the IETF",
+     "url": "https://sodestream.github.io/paper-the-web-we-weave-untangling-the-social-graph-of-the-ietf.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Sodestream paper (errare-humanum-est)",
+     "url": "https://sodestream.github.io/paper-errare-humanum-est.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Sodestream paper (leda)",
+     "url": "https://sodestream.github.io/paper-leda.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Sodestream paper (ling-markers)",
+     "url": "https://sodestream.github.io/paper-ling-markers.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Sodestream paper (temporal)",
+     "url": "https://sodestream.github.io/paper-temporal.html",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Sodestream paper (power)",
+     "url": "https://sodestream.github.io/paper-power.html",
+     "source": "slides"
+    }
+   ],
+   "abstract": "SDOs such as IETF have a lot of publicly available data. The Sodestream\nproject has been looking at those data to gain understanding of the IETF\nthrough those data. This talk will present an updated overview of how we\nexplore those data through the combinations of tools we use and what you\ncould potentially do with the toolchains we built over the years."
   },
   {
    "id": "slides-121-rasprg-automating-ietf-insights-generation-with-ai",
@@ -554,7 +772,22 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-automating-ietf-insights-generation-with-ai",
-   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-automating-ietf-insights-generation-with-ai/"
+   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-automating-ietf-insights-generation-with-ai/",
+   "resources": [
+    {
+     "type": "paper",
+     "title": "Background paper (arXiv:2410.13301)",
+     "url": "https://arxiv.org/pdf/2410.13301",
+     "source": "agenda"
+    },
+    {
+     "type": "reference",
+     "title": "arxiv.org/pdf/2309.05922",
+     "url": "https://arxiv.org/pdf/2309.05922",
+     "source": "slides"
+    }
+   ],
+   "abstract": "This paper presents an automated system that streamlines the generation of\ncomprehensive reports on the activities of the Internet Engineering Task\nForce (IETF) Working Groups. The system collects, consolidates, and analyzes\ndata from various IETF sources, including meeting minutes, participant\nlists, drafts and agendas. The core components of the system include data\npreprocessing code and a report generation module that produces\nhigh-quality documents in LaTeX or Markdown. By integrating large Language\nModels (LLMs) for summaries based on the data as ground truth, the project\nenhances the accessibility and utility of IETF records, providing a\nvaluable overview of the IETF's activities and contributions to the\ncommunity."
   },
   {
    "id": "slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf",
@@ -568,7 +801,28 @@
     "community-culture"
    ],
    "slides": "https://datatracker.ietf.org/meeting/121/materials/slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf",
-   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf/"
+   "doc": "https://datatracker.ietf.org/doc/slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf/",
+   "resources": [
+    {
+     "type": "report",
+     "title": "Research report (Google Doc)",
+     "url": "https://docs.google.com/document/d/1tgZ86ugijXPUOo_lD3kLfQBPbneecUNzZim1GOgkC1M/edit?tab=t.0",
+     "source": "agenda"
+    },
+    {
+     "type": "website",
+     "title": "IETF research project page",
+     "url": "https://identitywoman.net/ietf-research/",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Wise Democracy Pattern Language",
+     "url": "https://www.wd-pl.com/patterns/pattern-list-v2/",
+     "source": "slides"
+    }
+   ],
+   "abstract": "This work reports on research focused on the Internet Engineering Task\nForce's (IETF) innovative processes for not only creating protocols\n(descriptions of how to move data in networks of computers) but also, its\nown governance protocols. We argue the IETF is regenerative and leverages\nits collective intelligence. Our research can offer insights to\norganizations and communities seeking to create better technology for the\ngood of humanity.\n\nThe first part of our research explores the IETF as a living system based on\nour participation and observations mapped to the patterns from three\ndifferent pattern languages. In this section we explore how Identity,\nCulture, Process, Governance, Tooling, and Knowledge all shape a deeper IETF\nPurpose. The second part of the report thoroughly explores how the IETF is\nregenerative. We use the patterns from the pattern languages as lenses to\nunderstand how the organization works. We detail how these patterns appear\nwithin the IETF as it operates.\n\nWe explore how an organization that is totally open to participation from\nanyone in the world maintains its coherence and achieves effective results;\nhow the Ritual and Flow of week-long meetings embody many Patterns from the\nGroup Works Deck; how the organization distributes governance and embodies\nkey patterns from the Wise Democracy Pattern Language; how the organization\nsustains Joyful Communal Labor within a Zone of Autonomy it has cultivated\nand maintained; how core patterns like a Willingness to Experiment and a\nGrounding in Running Code exist for both the technical protocols and the\ncommunity leadership and governance protocols they create; and what key\npatterns are present within Working Group meetings. We conclude by sharing\nsome of the limitations of this research and suggesting potential future\nexplorations."
   },
   {
    "id": "slides-123-rasprg-0-note-well-agenda",
@@ -596,7 +850,8 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized",
-   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized/"
+   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized/",
+   "abstract": "Great power competition is in the air, and technological decoupling is all\naround. Many commentators and scholars presume that U.S.-China\ntechnological decoupling is well underway, making the bifurcation of the\nglobal technological system an inevitability. This article challenges that\nexpectation. Global standards development organizations (SDOs) serve as a\nbuffer against fragmentation, since actors that seek to set up alternative\nnetworks or exclude rivals from established ones will lose out on the\neconomies of scale and scope offered by globally interoperable standards.\nThe legitimacy of these SDOs, supported by their highly technical and open\nprocedures, reinforces these headwinds against decoupling. To show that\nU.S.-China economic interdependence has only increased in network\ntechnologies governed by these SDOs, this paper analyzes the Internet\nEngineering Task Force (IETF). It presents evidence from expert interviews,\na case study of China's fraught efforts to develop alternative internet\nprotocols outside of the IETF (\"New IP\" proposal), and a network analysis\nof author affiliations in Request for Comments from 2010 to 2024."
   },
   {
    "id": "slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem",
@@ -611,7 +866,21 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem",
-   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem/"
+   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-interoperation-in-the-at-protocol-ecosystem/",
+   "resources": [
+    {
+     "type": "website",
+     "title": "WhiteWind (AT Protocol app)",
+     "url": "http://whtwnd.com",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "Tangled (AT Protocol app)",
+     "url": "http://tangled.sh",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization",
@@ -626,7 +895,16 @@
     "participation-diversity"
    ],
    "slides": "https://datatracker.ietf.org/meeting/123/materials/slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization",
-   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization/"
+   "doc": "https://datatracker.ietf.org/doc/slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization/",
+   "resources": [
+    {
+     "type": "draft",
+     "title": "draft-attoumani-ietf-inclusion",
+     "url": "https://datatracker.ietf.org/doc/draft-attoumani-ietf-inclusion/",
+     "source": "agenda"
+    }
+   ],
+   "abstract": "This presentation shares findings from the Africa IGF 2025 session on IETF\nparticipation barriers, where only 0.24% of RFCs have African co-authors.\nUsing new data on geographic, linguistic, and structural hurdles, we\npropose: a metrics framework to track underrepresented regions'\nengagement; policy-aware protocol development strategies; RASPRG research\nopportunities to analyze participation drivers. Goal: spark collaborative\nsolutions for truly global standards processes."
   },
   {
    "id": "slides-124-rasprg-0-chairs-welcome",
@@ -654,7 +932,16 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-01-jie-bian",
-   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-01-jie-bian/"
+   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-01-jie-bian/",
+   "resources": [
+    {
+     "type": "data",
+     "title": "Hugging Face models and datasets (jiebi)",
+     "url": "https://huggingface.co/jiebi",
+     "source": "slides"
+    }
+   ],
+   "abstract": "RFCs don't usually contain much text that explains the reasons behind the\ndesign decisions that were taken. Yet, making these rationales visible is\nvital for several reasons: it supports the newcomers to the IETF, fosters\ntransparency and trust, and enables more informed participation. When the\nunderlying reasonings are clearly articulated, newcomers gain insight into\ntrade-offs and historical context, while implementers can better align\ntheir work with the intent of the specification rather than relying solely\non prescriptive rules. Beyond immediate benefits, preserving and exposing\ndesign rationales is crucial for the evolution of next-generation\nprotocols. Without access to the considerations that shaped earlier\nstandards, future designers risk repeating past mistakes or overlooking\nsubtle compromises that influenced prior decisions.\n\nBuilding on the above work, we also explored leveraging LLMs for\nauto-editing RFCs, enabling models to refine draft text based on feedback\nfrom WG members. This capability has the potential to significantly\naccelerate iterative development of Internet-Drafts and streamline IETF\nworkflows."
   },
   {
    "id": "slides-124-rasprg-02-jaime-jimenez",
@@ -669,7 +956,22 @@
     "ai-llm"
    ],
    "slides": "https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez",
-   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-02-jaime-jimenez/"
+   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-02-jaime-jimenez/",
+   "resources": [
+    {
+     "type": "report",
+     "title": "IETF AI report",
+     "url": "https://jaime.win/ietf-ai-report",
+     "source": "slides"
+    },
+    {
+     "type": "paper",
+     "title": "Automating IETF insights generation with AI (arXiv:2410.13301)",
+     "url": "https://arxiv.org/pdf/2410.13301",
+     "source": "slides"
+    }
+   ],
+   "abstract": "This presentation demonstrates how AI agents can assist with IETF\nspecification making process, based on practical experience. It covers\nwhere AI can immediately help with examples. It also discusses practical\nadoption steps and challenges."
   },
   {
    "id": "slides-124-rasprg-03-jpotvin-rasprg",
@@ -685,7 +987,22 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-03-jpotvin-rasprg",
-   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-03-jpotvin-rasprg/"
+   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-03-jpotvin-rasprg/",
+   "resources": [
+    {
+     "type": "website",
+     "title": "Xalgorithms Foundation",
+     "url": "https://xalgorithms.org/",
+     "source": "slides"
+    },
+    {
+     "type": "code",
+     "title": "Xalgorithms Alliance on GitLab",
+     "url": "https://gitlab.com/xalgorithms-alliance",
+     "source": "slides"
+    }
+   ],
+   "abstract": "LLM-Assisted Transformation of IETF Standards into Machine-Processable\nRules-as-Data.\n\nDevelopers are challenged to maintain awareness and practical applicability\nof requirements embedded in the prose of standards, such as more than 9,000\nRFCs/BCPs. The Data With Direction Specification (DWDS) is a framework for\ntransforming normative rules into consistent, canonical 'Rules-as-Data'\noptimized for machine processing, while also being human-auditable. During\nunit testing, developers could get specific \"in effect\", \"applicable\" and\n\"invoked\" requirements in standards dynamically discovered, fetched,\ndelivered inside existing developer toolchains, for conformance support and\nvalidation. The free/libre/open source reference implementation involves:\nRule-as-Data (canonical data structures), RuleMaker (authoring IDE),\nRuleReserve (IPFS-based distributed storage), and RuleTaker (edge-resident\nembedded discovery component). Rules-as-Data will be illustrated with a\nBGP-4 propagation rule example from RFC 4271.\n\nWe use LLMs as linguistic tools (not oracles) with human-in-the-loop\niteration to: (1) distill RFC prose into discrete declarative statements of\nInput Conditions and Output Assertions; (2) structure each with a\nsix-element finite grammar; (3) generate a concise interpretive\nexplanation; and (4) cycle human-validated results back into LLMs to\niteratively improve performance with (1), (2) and (3) for emergent\nscalability. Current R&D involves integration of the Model Context\nProtocol."
   },
   {
    "id": "slides-124-rasprg-04-jfqueralt-rasprg",
@@ -701,7 +1018,21 @@
     "geopolitics-policy"
    ],
    "slides": "https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-04-jfqueralt-rasprg",
-   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-04-jfqueralt-rasprg/"
+   "doc": "https://datatracker.ietf.org/doc/slides-124-rasprg-04-jfqueralt-rasprg/",
+   "resources": [
+    {
+     "type": "website",
+     "title": "Data-Centric Digital Rights",
+     "url": "https://tiof.click/DCDRWeb",
+     "source": "slides"
+    },
+    {
+     "type": "code",
+     "title": "The IO Foundation repository",
+     "url": "https://tiof.click/TIOFRepo",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-125-rasprg-0-note-well-welcome",
@@ -729,7 +1060,8 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings",
-   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings/"
+   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings/",
+   "abstract": "The Internet Engineering Task Force (IETF) is one of the main global\norganizations responsible for developing and maintaining the technical\nstandards that sustain the Internet. Although its processes are open and\nvolunteer-based, participation remains geographically concentrated. This\ntalk presents early findings from an ongoing longitudinal study of Latin\nAmerican and Caribbean participation in IETF meetings, examining who\ncontributes, from which institutions and sectors, and what factors shape\nengagement. We created a dataset covering all IETF meetings (IETF 1-123),\nconsolidating participant names, affiliations, countries, and registration\ntypes. Preliminary analyses show that North America and Europe continue to\ndominate participation, while Latin America and the Caribbean (led by\nBrazil) have shown gradual growth since the 2010s. Regional participation\nis concentrated around organizations such as NIC.br, LACNIC, and\nuniversities, with fellowships and remote participation hubs playing an\nimportant enabling role."
   },
   {
    "id": "slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict",
@@ -744,7 +1076,8 @@
     "geopolitics-policy"
    ],
    "slides": "https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict",
-   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict/"
+   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict/",
+   "abstract": "This presentation examines Korea's transition from standards adopter to\nstandards author, tracing the evolution of its national standardization\nsystem from the 1960s to the present. In its early stages, standards\nprimarily supported export-driven industrialization through national\nplanning and the development of quality infrastructure. Over time, however,\nstandardization became increasingly integrated with industrial and\ntechnology policy.\n\nFrom the late 1990s onward, Korea pursued a more proactive strategy in ICT\nstandardization, linking research and development (R&D) with international\nengagement and expanding its participation in global standards development\norganizations. Institutions such as ETRI (Electronics and\nTelecommunications Research Institute) and TTA (Telecommunications\nTechnology Association) played coordinating roles between government,\nindustry, and international SDOs, contributing to Korea's growing presence\nin ICT-related standard-setting activities.\n\nAs rule-setting in critical and emerging technologies becomes increasingly\ncompetitive, the strategic importance of ICT standardization continues to\ngrow. In this context, Korea's case would offer insights into how\ninstitutional development enhances a country's participation in\ninternational standardization."
   },
   {
    "id": "slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek",
@@ -760,7 +1093,16 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/125/materials/slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek",
-   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek/"
+   "doc": "https://datatracker.ietf.org/doc/slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek/",
+   "resources": [
+    {
+     "type": "artifact",
+     "title": "RFC 9293 erratum 8710 (found with RFSeek)",
+     "url": "https://www.rfc-editor.org/errata/eid8710",
+     "source": "slides"
+    }
+   ],
+   "abstract": "RFC specifications are long prose documents whose protocol logic is often\ndistributed across multiple sections. While authors sometimes include ASCII\nstate machine diagrams to aid understanding, these diagrams are\nintentionally simplified and may omit behaviors described elsewhere in the\ntext.\n\nThis talk presents RFSeek, a tool based on a new approach we call summary\nvisualization. RFSeek extracts protocol logic from RFC text using Large\nLanguage Models (LLMs) and produces interactive visual models where each\ntransition is linked to the specification passages that justify it. These\nprovenance links allow users to inspect and audit the extracted behavior.\nApplying RFSeek to several protocols surfaced logic missing from published\ndiagrams, including a TCP transition that led to an accepted editorial\nerrata for RFC 9293. We will also invite protocol practitioners to try\nRFSeek and participate in upcoming user studies at the IETF 126 Hackathon."
   },
   {
    "id": "slides-interim-2026-rasprg-01-sessa-chair-slides",
@@ -787,7 +1129,15 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/materials/slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c",
-   "doc": "https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c/"
+   "doc": "https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-sodestream-measuring-the-ietf-and-w3c/",
+   "resources": [
+    {
+     "type": "website",
+     "title": "Sodestream project",
+     "url": "https://sodestream.github.io/",
+     "source": "slides"
+    }
+   ]
   },
   {
    "id": "slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data",
@@ -802,7 +1152,15 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/interim-2026-rasprg-01/materials/slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data",
-   "doc": "https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data/"
+   "doc": "https://datatracker.ietf.org/doc/slides-interim-2026-rasprg-01-sessa-analysing-internet-standards-development-organisation-data/",
+   "resources": [
+    {
+     "type": "draft",
+     "title": "draft-perkins-analysing-sdo-data",
+     "url": "https://datatracker.ietf.org/doc/draft-perkins-analysing-sdo-data/",
+     "source": "agenda"
+    }
+   ]
   },
   {
    "id": "slides-126-rasprg-0-rasprg-ietf126-chairs",
@@ -830,7 +1188,22 @@
     "community-culture"
    ],
    "slides": "https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-ai-in-standards-participation",
-   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-ai-in-standards-participation/"
+   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-ai-in-standards-participation/",
+   "resources": [
+    {
+     "type": "tool",
+     "title": "ietf-llm (PyPI)",
+     "url": "https://pypi.org/project/ietf-llm",
+     "source": "slides"
+    },
+    {
+     "type": "code",
+     "title": "ietf-skill",
+     "url": "https://github.com/mnot/ietf-skill",
+     "source": "slides"
+    }
+   ],
+   "abstract": "AI is increasingly used to research, write, and implement Internet\nstandards, and, increasingly, to participate in standards discourse itself.\nAs an assistive technology, it can lower barriers for those facing language\nor other obstacles. However, it also makes it easy to participate with\nlimited human effort or understanding, straining a community whose value\nrests on a finite pool of expert attention.\n\nThis talk demonstrates ietf-llm, a tool for querying a working group's or\nresearch group's public record, and uses it to ground a discussion of where\nAI helps participation, where it harms it, and what norms the IETF and IRTF\nmight adopt in response."
   },
   {
    "id": "slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts",
@@ -846,7 +1219,15 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts",
-   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts/"
+   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-measuring-ai-authorship-of-ietf-drafts/",
+   "resources": [
+    {
+     "type": "tool",
+     "title": "Is it AI? (IETF draft checker)",
+     "url": "http://ietf.jaime.win/is-it-ai",
+     "source": "agenda"
+    }
+   ]
   },
   {
    "id": "slides-126-rasprg-3-marcello-santos",
@@ -862,7 +1243,8 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-3-marcello-santos",
-   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-3-marcello-santos/"
+   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-3-marcello-santos/",
+   "abstract": "It is well known that most Internet-Drafts never become RFCs. This talk\nshares early, work-in-progress findings from a study that looks at where in\nthe process drafts tend to stall, using the IETF Datatracker to reconstruct\neach draft's lifecycle, including its outcome, authors, affiliations,\ngeography, and process history.\n\nSo far, the results suggest that a draft's fate is shaped largely at one key\npoint: Working Group adoption. Some patterns that appear clear in simple\ncomparisons, such as differences by region, by area, or between the IETF\nand IRTF, seem to change once adoption is taken into account.\n\nThese are preliminary observations rather than firm conclusions, and the\nanalysis is still being refined. The aim of the talk is to share the\napproach and initial signals, gather feedback, and discuss what they might\nmean for lowering barriers to entry."
   },
   {
    "id": "slides-126-rasprg-community-vitality-through-ripe-mailing-lists",
@@ -878,7 +1260,8 @@
     "other-sdos-ecosystems"
    ],
    "slides": "https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-community-vitality-through-ripe-mailing-lists",
-   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-community-vitality-through-ripe-mailing-lists/"
+   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-community-vitality-through-ripe-mailing-lists/",
+   "abstract": "RIPE mailing lists have been active for over 30 years and have been one of\nthe main communication channels for the RIPE community and the RIPE NCC\nmembership. This analysis looks into mailing list traffic over time, the\nconcentration of participation, the longevity of contributors, and the role\nof the most popular mailing lists in overall discussion.\n\nThe results reflect long-term engagement within the RIPE community and RIPE\nNCC membership, as seen through the mailing lists."
   },
   {
    "id": "slides-126-rasprg-analysing-internet-standards-data",
@@ -893,7 +1276,16 @@
     "data-tools"
    ],
    "slides": "https://datatracker.ietf.org/meeting/126/materials/slides-126-rasprg-analysing-internet-standards-data",
-   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-analysing-internet-standards-data/"
+   "doc": "https://datatracker.ietf.org/doc/slides-126-rasprg-analysing-internet-standards-data/",
+   "resources": [
+    {
+     "type": "draft",
+     "title": "draft-perkins-analysing-sdo-data",
+     "url": "https://datatracker.ietf.org/doc/draft-perkins-analysing-sdo-data/",
+     "source": "agenda"
+    }
+   ],
+   "abstract": "This document outlines issues to consider when studying data relating to\nthe Internet standards development ecosystem. It identifies observable\ncomponents of standards development processes, proposes a taxonomy of\npossible measurements, and highlights methodological, interpretive, and\nethical considerations.\n\nThe draft is intended to support a range of uses, including monitoring\nstandards development organisations, evaluating the evolution of technical\nwork, understanding technology deployment, and informing community,\nleadership, and governance discussions."
   },
   {
    "id": "slides-127-rasprg-0-chairs-welcome",
@@ -921,7 +1313,58 @@
     "community-culture"
    ],
    "slides": "https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-llm-text-in-ietf-discussions",
-   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-llm-text-in-ietf-discussions/"
+   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-llm-text-in-ietf-discussions/",
+   "resources": [
+    {
+     "type": "draft",
+     "title": "draft-fengfar-led: Dealing with LLMs in IETF Discussions",
+     "url": "https://datatracker.ietf.org/doc/draft-fengfar-led/",
+     "source": "agenda"
+    },
+    {
+     "type": "reference",
+     "title": "doi.org/10.1073/pnas.2422455122",
+     "url": "https://doi.org/10.1073/pnas.2422455122",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "doi.org/10.1145/3717867.3717872",
+     "url": "https://doi.org/10.1145/3717867.3717872",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "arxiv.org/abs/2607.11749",
+     "url": "https://arxiv.org/abs/2607.11749",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "doi.org/10.48550/arXiv.2409.01754",
+     "url": "https://doi.org/10.48550/arXiv.2409.01754",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "doi.org/10.1145/3711061",
+     "url": "https://doi.org/10.1145/3711061",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "arxiv.org/abs/2510.05136",
+     "url": "https://arxiv.org/abs/2510.05136",
+     "source": "slides"
+    },
+    {
+     "type": "reference",
+     "title": "doi.org/10.1080/10447318.2026.2628994",
+     "url": "https://doi.org/10.1080/10447318.2026.2628994",
+     "source": "slides"
+    }
+   ],
+   "abstract": "This presentation will discuss the proposed guidelines for the use of large\nlanguage models (LLMs) in IETF email discussions. See draft-fengfar-led for\nfurther details."
   },
   {
    "id": "slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies",
@@ -937,7 +1380,22 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies",
-   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies/"
+   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies/",
+   "resources": [
+    {
+     "type": "artifact",
+     "title": "RFC 9293 erratum 8710 (found with RFSeek)",
+     "url": "https://www.rfc-editor.org/errata/eid8710",
+     "source": "slides"
+    },
+    {
+     "type": "website",
+     "title": "User study sign-up form",
+     "url": "https://forms.gle/Danxhkp2PLBBLr2z7",
+     "source": "slides"
+    }
+   ],
+   "abstract": "RFC specifications often describe protocol behavior across multiple\nsections of prose, while accompanying state-machine diagrams may omit\nimportant transitions.\n\nRFSeek introduces an approach we call summary visualization: using Large\nLanguage Models (LLMs) to construct interactive representations of protocol\nbehavior, with each transition linked to the supporting passages in the\nRFC. These provenance links allow experts to inspect, verify, and challenge\nthe extracted logic.\n\nApplying RFSeek to several protocols revealed discrepancies between the\nspecification text and published diagrams, including a missing TCP\ntransition that resulted in a verified editorial erratum for RFC 9293.\n\nWe are now planning user studies to understand how protocol practitioners\ninteract with RFSeek, evaluate its results, and assess its usefulness for\nprotocol development and review. This short talk will briefly revisit\nRFSeek and invite RFC authors, reviewers, and implementers to participate in\nthe upcoming evaluation."
   },
   {
    "id": "slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026",
@@ -954,7 +1412,8 @@
     "participation-diversity"
    ],
    "slides": "https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026",
-   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026/"
+   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026/",
+   "abstract": "Quantitative analysis of IETF standardization relies on authorship data\nthat is incomplete in a subtle but significant way: it contains no\nauthorship information before 1980, so the entire ARPANET era, when the\ncommunity formed, is unrepresented. Authorship records have been\nreconstructed from the documents themselves, resulting in a corpus of\n24,343 person-authorships across 9,848 RFCs published through October 2026,\nwith complete country and institutional affiliation for each entry. This\nreconstruction reveals three key findings: 1) in the early 1990s, the\nseries ceased to be both academic and American within the same five-year\nspan; 2) the founding generation did not transition the series to\nsuccessors, as publication nearly halted in the late 1970s and later\nresumed with a different cohort; 3) co-author communities align with\ntechnical domains rather than the working-group structure, persisting for\ndecades beyond the original charters."
   },
   {
    "id": "slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf",
@@ -969,7 +1428,28 @@
     "document-lifecycle"
    ],
    "slides": "https://datatracker.ietf.org/meeting/127/materials/slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf",
-   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf/"
+   "doc": "https://datatracker.ietf.org/doc/slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf/",
+   "resources": [
+    {
+     "type": "tool",
+     "title": "IRTF-to-IETF tracing tool",
+     "url": "https://irtf2ietf.quixada.ufc.br/",
+     "source": "slides"
+    },
+    {
+     "type": "code",
+     "title": "irtf-to-ietf",
+     "url": "https://github.com/michelsb/irtf-to-ietf",
+     "source": "slides"
+    },
+    {
+     "type": "draft",
+     "title": "draft-sales-irtf-ietf-transition (source)",
+     "url": "https://github.com/michelsb/draft-sales-irtf-ietf-transition",
+     "source": "slides"
+    }
+   ],
+   "abstract": "How do research results from the IRTF find their way into IETF work, and\nwhat evidence can demonstrate that contribution? This presentation\nintroduces a methodology and supporting tool for investigating research\ntransfer between the two organizations. The approach combines document\ncollection, candidate discovery, and human review to examine documentary\nlinks, relationships between research and working groups, and the role of\nindividuals. It distinguishes signals such as citations from evidence of\nsubstantive use, while preserving traceability and making coverage\nlimitations explicit. The talk will present the approach, current tool\ncapabilities, and open methodological questions, inviting feedback on\nevidence criteria and validation."
   }
  ]
 }

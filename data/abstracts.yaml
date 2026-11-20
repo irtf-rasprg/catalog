@@ -1,0 +1,529 @@
+# Talk abstracts, quoted from the published rasprg session agendas on the
+# IETF Datatracker (the agenda link for each session is in meetings.yaml).
+#
+# Keys are presentation ids from presentations.yaml. Text is quoted as
+# published (light whitespace cleanup only); speaker bios are left out.
+# Talks whose agenda has no abstract are simply absent: the site shows
+# "No abstract in the agenda" for them. Never write an abstract here that
+# does not come from an agenda or from the presenter.
+#
+# These texts are Contributions under the IETF/IRTF IPR rules (BCP 78/79,
+# Note Well) and are NOT covered by this repository's CC BY 4.0 licence.
+# See LICENSE.md.
+abstracts:
+
+  # ---- IETF 116 ----
+  slides-116-rasprg-hard-work-hum-final-final: |
+    In this talk, dr. Corinne Cath will explain how she used ethnography (a
+    qualitative method that studies people in their natural environment) to
+    study the IETF. She will outline the basics of ethnography, how to apply it
+    to the high-tech and elite nature of Internet standards bodies, and what
+    unique data about politics and power can be drawn from understanding the
+    IETF's running code through the people that craft it. This talk draws on her
+    Ph.D. research on the IETF's culture and practices, University of Oxford
+    (2016-2021).
+
+  # ---- IETF 118 ----
+  slides-118-rasprg-standards-tracker: |
+    The goal of the Internet Standards Observatory is to prevent Internet
+    fragmentation. The observatory is working on the development tools and
+    resources to understand what Internet standards proposals are currently
+    under discussion that could potentially challenge interoperability and
+    significantly transform addressing, naming, networking and routing on the
+    Internet.
+
+    During the session, we will present our Standards Tracker for the ITU-T. The
+    tracker has been developed using the Data Analytics Platform of the DNS
+    Research Federation. Presenters will explain how the tracker works, how it
+    was developed and how we process information on our platform. Presenters
+    will discuss ongoing efforts to launch an IETF Standards Tracker, and briefly
+    introduce forthcoming research supported by the Internet Standards
+    Observatory.
+
+  slides-118-rasprg-bigbang-update: |
+    Sebastian Benthall will provide a brief update on BigBang progress. Version
+    0.5 has been released with the contributions from the IETF 116 Hackathon.
+    New scripts that assess the dominance of actors in working group leadership,
+    draft authorship, and mailing lists are being built and refined. We
+    anticipate adding more W3C data ingress features by the end of the calendar
+    year.
+
+  slides-118-rasprg-hares-consensus-decisions-iesg: |
+    RFC 2026 specifies that IETF RFC publication has the following steps: 1)
+    Internet-Draft (I-D) creation, 2) WG requests publication of an I-D as RFC,
+    3) IESG review and approval of I-D as RFC, and 4) publication of the RFC by
+    the RFC editor. Few studies have examined the effectiveness of the IESG as a
+    group that reviews and approves RFCs. The IESG operates as a virtual
+    top-management team (TMT) process that can be effective or ineffective based
+    on group behaviors within the IESG. This longitudinal mixed-mode study
+    examined whether solidarity and conflict were group behaviors that predicted
+    effective team consensus decision-making in the Internet Engineering
+    Steering Group (IESG).
+
+    This research examined the IESG consensus decision-making in the 28 years of
+    consensus decision-making (1989-2016) from five different viewpoints (three
+    different types of historical data and two surveys). Historiometric best
+    practices guided the design of collection and IPA analysis of the historical
+    data so that historical data could be triangulated with two surveys. Survey
+    questions from Koster and Sanders' (2006) research on solidarity, Jehn's
+    Intragroup Conflict Scale (1995), and MacKenzie, Podsakoff, and Fetter's
+    (1991) research on OCB were used as a basis for IPA analysis and the survey.
+    The IPA analysis examined 3,458 group consensus decisions for group
+    behaviors, with over 39,186 individual behavioral patterns with components
+    of conflict, solidarity, or OCB. The researcher surveyed all IESG members
+    from 1989-2016 in two surveys (given in 2013 and 2017). This research
+    concludes that solidarity was an antecedent to effective team consensus
+    decision-making in the IESG, but that conflict has a complex relationship to
+    effective consensus decision-making in the IESG. Increases in solidarity
+    behaviors in the TMT might increase the effectiveness of consensus decisions
+    in team consensus decision-making.
+
+    Key takeaways: (1) IESG effectiveness in making decisions can be predicted
+    by solidarity; (2) triangulation of a quantity of quality data is crucial to
+    understanding the IESG process; (3) conflict in IESG is complex due to the
+    need for task conflict to create standards and negative public opinion on
+    relationship conflict in IESG and IETF public meetings. Therefore,
+    relationship conflict is driven into the undercurrents of the IESG TMT.
+
+  slides-118-rasprg-communication-patterns-in-the-ietf-matthew-barnes: |
+    An important concept in organisational behaviour is how hierarchy affects
+    the voice of individuals, whereby members of a given organisation exhibit
+    differing power relations based on their hierarchical position. This
+    presentation develops large-scale computational techniques utilising
+    temporal network analysis to measure the effect that organisational
+    hierarchy has on communication patterns throughout the IETF, focusing on the
+    structure of pairwise interactions between individuals.
+
+    A particularly useful feature of the IETF is a transparent hierarchy, where
+    participants take on explicit roles (e.g., Area Directors, Working Group
+    Chairs), and because its processes are open we have visibility into the
+    communication of people at different hierarchy levels over a long time
+    period. Exploiting this, we utilise a temporal network dataset of 989,911
+    email interactions among 23,741 participants to study how hierarchy impacts
+    communication patterns. We show that the middle levels of the IETF are
+    growing in terms of their dominance in communications. Higher levels
+    consistently experience a higher proportion of incoming communication than
+    lower levels, with higher levels initiating more communications too. We
+    find that, overall, communication tends to flow "up" the hierarchy more than
+    "down". Finally, we find that communication with higher-levels is
+    associated with future communication more than for lower-levels, which we
+    interpret as "facilitation". We conclude by discussing the implications
+    this has on patterns within the wider IETF.
+
+  slides-118-rasprg-cdns-states: |
+    What is the relationship between CDNs and state interests? Large CDNs
+    intermediate most of internet traffic, yet how states view these
+    infrastructures (and vice versa) is understudied. This talk lays out a few
+    lines of initial questioning, particularly the role of internet
+    fragmentation in creating varying levels of dependence upon commercial CDN
+    providers. As moves toward internet sovereignty make some countries less
+    dependent on CDNs than others, asymmetries emerge, in which countries with a
+    strategic focus on internet sovereignty may face fewer consequences during
+    CDN outages than the (largely Western) countries that rely more heavily on
+    those providers. Could this asymmetry make CDNs a target of state-backed
+    cyberattacks during a global conflict? I conclude by discussing this
+    hypothetical, surveying the best available evidence from standards bodies
+    and beyond about operational and other security practices at CDNs.
+
+  # ---- IETF 120 ----
+  slides-120-rasprg-one-size-does-not-fit-all-why-gender-matters-in-standards-development: |
+    This presentation provides an overview on how standards development can be
+    gender biased due to the lack of data and women representation in the
+    development process, including high tech sector such as AI and IoT. Women
+    can be vulnerable if standard is not protecting them as well as men. But we
+    can improve this situation by developing Gender-Responsive Standards (GRS),
+    which acknowledge the distinct needs of different genders and take
+    concerted action to ensure that the impact of the standard is appropriate
+    and provides equal benefit.
+
+  slides-120-rasprg-networks-and-power-the-effects-of-random-selection-into-an-administrative-elite: |
+    When someone in a professional network achieves a position of power within
+    the profession, that person gains a bag of knowledge, connections, and
+    informal credits in favor of exchanges that can be used to increase the
+    entire network's professional success. Does a random assignment of power to
+    an individual increase the likelihood of publishing an Internet standard or
+    having a new patent granted for someone in his/her network? We address this
+    question by exploiting quasi-random variation in the selection of NomCom
+    members. We compare the productivity of co-authors of volunteers randomly
+    selected in NomCom with the productivity of co-authors of volunteers not
+    selected. Preliminary results show that random selection increases the
+    scientific productivity of co-authors, and this effect is stronger for
+    networks of female leaders.
+
+  slides-120-rasprg-arc-regenerative-communities: |
+    Summer of Protocols is an initiative of the Ethereum Foundation. We are in
+    its 2nd cohort and were awarded a Protocol Orientering Grant (POG) to study
+    an existing regenerative community that specializes in the development of
+    internet protocols: the IETF.
+
+    The IETF is kept alive by the energy of people and their decision to
+    actively contribute their energy to the creation of the protocols they
+    develop there. They also actively develop and participate in protocols that
+    are generative forming the "community protocols." It literally is a
+    recursive organization using its protocol processes to develop protocol
+    processes for protocols.
+
+    We are using the Group Works Deck Pattern Language for bringing Life to
+    Meetings and Other Gatherings and the Wise Democracy Pattern Language as
+    lenses through which to understand the IETF community processes and
+    culture. We are exploring other regenerative frameworks as potential
+    additional lenses. The project end date is August 31, 2024 and you can see
+    progress of our research on the public forum.
+
+  slides-120-rasprg-robert-w-gehl-activitypub-a-non-standard-standard-presentation-slides: |
+    Published by members of the W3C's Social Web Working Group (SocialWG) in
+    2018, ActivityPub is the protocol that enables the fediverse, a collection
+    of social media sites that can communicate with one another. The
+    ActivityPub-driven fediverse is now one of the most viable social media
+    alternatives to come along in the past decade. It includes the microblogs
+    Mastodon, Misskey, and Meta's Threads, as well as image-sharing systems,
+    blogging platforms, meeting planners, and dating apps. While ActivityPub has
+    seen massive uptake, the development of ActivityPub has largely remained
+    unexamined from a sociological perspective. As I argue in a forthcoming book
+    about the fediverse, ActivityPub is a non-standard standard. Specifically,
+    there are four aspects of ActivityPub that make it quite unique among W3C
+    standards. First, corporate social media companies were not involved.
+    Second, rather than focus on one or two standards, the SocialWG produced six
+    other standards alongside ActivityPub. Third, ActivityPub (by far, the most
+    popular SocialWG standard) almost did not happen due to internal conflicts
+    in the SocialWG. Finally, a major portion of the ActivityPub standard is
+    actually ignored by implementers in favor of bespoke APIs. The presentation
+    draws on interviews with the developers of ActivityPub and Mastodon, close
+    reading of archival materials (such as the meeting minutes of the
+    SocialWG), as well as critical code analysis of the ActivityPub protocol.
+
+  # ---- IETF 121 ----
+  slides-121-rasprg-baron-justus-the-geography-of-standardization-with-new-findings-on-ietf: |
+    We study the role of geography (physical distance and national borders) for
+    individuals' decisions to participate in standards development meetings.
+    Our main analyses focus on 3GPP, a consortium of seven SDOs that develops
+    standards for mobile telecommunication standards. We find that both
+    distance and borders matter for individuals' attendance decisions. The
+    effect of distance, but not the effect of borders, have become less
+    pronounced over time. We also find that these factors only matter for the
+    employees of smaller 3GPP stakeholders, not for employees of the ten most
+    active 3GPP stakeholders (accounting for approx. 50% of the attendance
+    observations). Furthermore, both distance and borders have a significantly
+    stronger effect on the participation decisions of women, and a weaker
+    effect on the participation decisions of more senior 3GPP participants as
+    well as more prolific patent inventors (a relevant measure of technical
+    expertise within the context of 3GPP). We find no significant evidence of
+    intra-company substitution, and we find no evidence that the monetary cost
+    of travel and visa requirements can account for the effects of distance and
+    borders.
+
+    In this meeting, I will also present some analyses of the role of distance
+    and borders for the attendance of IETF meetings. Attendance of IETF meetings
+    is significantly more elastic to distance; but most of the main effects
+    observed in 3GPP also apply at IETF. In particular, women are significantly
+    less likely to travel far to attend an IETF meeting, and are more likely to
+    opt for remote participation.
+
+    Women, individuals from developing countries, and representatives of
+    smaller stakeholders are often significantly underrepresented in standards
+    development meetings. Our findings suggest that uneven ability to engage in
+    long-distance travel may be one important driver of this
+    underrepresentation. Our findings have important implications for the
+    organization of standards development activities, e.g. the choice of
+    meeting locations and the possibility of remote attendance.
+
+  slides-121-rasprg-sodestream-tools-exploring-the-standards-development-process-through-analysing-open-data: |
+    SDOs such as IETF have a lot of publicly available data. The Sodestream
+    project has been looking at those data to gain understanding of the IETF
+    through those data. This talk will present an updated overview of how we
+    explore those data through the combinations of tools we use and what you
+    could potentially do with the toolchains we built over the years.
+
+  slides-121-rasprg-automating-ietf-insights-generation-with-ai: |
+    This paper presents an automated system that streamlines the generation of
+    comprehensive reports on the activities of the Internet Engineering Task
+    Force (IETF) Working Groups. The system collects, consolidates, and analyzes
+    data from various IETF sources, including meeting minutes, participant
+    lists, drafts and agendas. The core components of the system include data
+    preprocessing code and a report generation module that produces
+    high-quality documents in LaTeX or Markdown. By integrating large Language
+    Models (LLMs) for summaries based on the data as ground truth, the project
+    enhances the accessibility and utility of IETF records, providing a
+    valuable overview of the IETF's activities and contributions to the
+    community.
+
+  slides-121-rasprg-remarkable-regenerative-patterns-and-practices-of-the-internet-engineering-task-force-ietf: |
+    This work reports on research focused on the Internet Engineering Task
+    Force's (IETF) innovative processes for not only creating protocols
+    (descriptions of how to move data in networks of computers) but also, its
+    own governance protocols. We argue the IETF is regenerative and leverages
+    its collective intelligence. Our research can offer insights to
+    organizations and communities seeking to create better technology for the
+    good of humanity.
+
+    The first part of our research explores the IETF as a living system based on
+    our participation and observations mapped to the patterns from three
+    different pattern languages. In this section we explore how Identity,
+    Culture, Process, Governance, Tooling, and Knowledge all shape a deeper IETF
+    Purpose. The second part of the report thoroughly explores how the IETF is
+    regenerative. We use the patterns from the pattern languages as lenses to
+    understand how the organization works. We detail how these patterns appear
+    within the IETF as it operates.
+
+    We explore how an organization that is totally open to participation from
+    anyone in the world maintains its coherence and achieves effective results;
+    how the Ritual and Flow of week-long meetings embody many Patterns from the
+    Group Works Deck; how the organization distributes governance and embodies
+    key patterns from the Wise Democracy Pattern Language; how the organization
+    sustains Joyful Communal Labor within a Zone of Autonomy it has cultivated
+    and maintained; how core patterns like a Willingness to Experiment and a
+    Grounding in Running Code exist for both the technical protocols and the
+    community leadership and governance protocols they create; and what key
+    patterns are present within Working Group meetings. We conclude by sharing
+    some of the limitations of this research and suggesting potential future
+    explorations.
+
+  # ---- IETF 123 ----
+  slides-123-rasprg-1-jeffrey-ding-george-washington-university-us-china-economic-interdependence-has-not-declined-it-has-standardized: |
+    Great power competition is in the air, and technological decoupling is all
+    around. Many commentators and scholars presume that U.S.-China
+    technological decoupling is well underway, making the bifurcation of the
+    global technological system an inevitability. This article challenges that
+    expectation. Global standards development organizations (SDOs) serve as a
+    buffer against fragmentation, since actors that seek to set up alternative
+    networks or exclude rivals from established ones will lose out on the
+    economies of scale and scope offered by globally interoperable standards.
+    The legitimacy of these SDOs, supported by their highly technical and open
+    procedures, reinforces these headwinds against decoupling. To show that
+    U.S.-China economic interdependence has only increased in network
+    technologies governed by these SDOs, this paper analyzes the Internet
+    Engineering Task Force (IETF). It presents evidence from expert interviews,
+    a case study of China's fraught efforts to develop alternative internet
+    protocols outside of the IETF ("New IP" proposal), and a network analysis
+    of author affiliations in Request for Comments from 2010 to 2024.
+
+  slides-123-rasprg-mapping-the-gap-quantifying-barriers-to-african-participation-in-ietf-standardization: |
+    This presentation shares findings from the Africa IGF 2025 session on IETF
+    participation barriers, where only 0.24% of RFCs have African co-authors.
+    Using new data on geographic, linguistic, and structural hurdles, we
+    propose: a metrics framework to track underrepresented regions'
+    engagement; policy-aware protocol development strategies; RASPRG research
+    opportunities to analyze participation drivers. Goal: spark collaborative
+    solutions for truly global standards processes.
+
+  # ---- IETF 124 (panel statements) ----
+  slides-124-rasprg-01-jie-bian: |
+    RFCs don't usually contain much text that explains the reasons behind the
+    design decisions that were taken. Yet, making these rationales visible is
+    vital for several reasons: it supports the newcomers to the IETF, fosters
+    transparency and trust, and enables more informed participation. When the
+    underlying reasonings are clearly articulated, newcomers gain insight into
+    trade-offs and historical context, while implementers can better align
+    their work with the intent of the specification rather than relying solely
+    on prescriptive rules. Beyond immediate benefits, preserving and exposing
+    design rationales is crucial for the evolution of next-generation
+    protocols. Without access to the considerations that shaped earlier
+    standards, future designers risk repeating past mistakes or overlooking
+    subtle compromises that influenced prior decisions.
+
+    Building on the above work, we also explored leveraging LLMs for
+    auto-editing RFCs, enabling models to refine draft text based on feedback
+    from WG members. This capability has the potential to significantly
+    accelerate iterative development of Internet-Drafts and streamline IETF
+    workflows.
+
+  slides-124-rasprg-02-jaime-jimenez: |
+    This presentation demonstrates how AI agents can assist with IETF
+    specification making process, based on practical experience. It covers
+    where AI can immediately help with examples. It also discusses practical
+    adoption steps and challenges.
+
+  slides-124-rasprg-03-jpotvin-rasprg: |
+    LLM-Assisted Transformation of IETF Standards into Machine-Processable
+    Rules-as-Data.
+
+    Developers are challenged to maintain awareness and practical applicability
+    of requirements embedded in the prose of standards, such as more than 9,000
+    RFCs/BCPs. The Data With Direction Specification (DWDS) is a framework for
+    transforming normative rules into consistent, canonical 'Rules-as-Data'
+    optimized for machine processing, while also being human-auditable. During
+    unit testing, developers could get specific "in effect", "applicable" and
+    "invoked" requirements in standards dynamically discovered, fetched,
+    delivered inside existing developer toolchains, for conformance support and
+    validation. The free/libre/open source reference implementation involves:
+    Rule-as-Data (canonical data structures), RuleMaker (authoring IDE),
+    RuleReserve (IPFS-based distributed storage), and RuleTaker (edge-resident
+    embedded discovery component). Rules-as-Data will be illustrated with a
+    BGP-4 propagation rule example from RFC 4271.
+
+    We use LLMs as linguistic tools (not oracles) with human-in-the-loop
+    iteration to: (1) distill RFC prose into discrete declarative statements of
+    Input Conditions and Output Assertions; (2) structure each with a
+    six-element finite grammar; (3) generate a concise interpretive
+    explanation; and (4) cycle human-validated results back into LLMs to
+    iteratively improve performance with (1), (2) and (3) for emergent
+    scalability. Current R&D involves integration of the Model Context
+    Protocol.
+
+  # ---- IETF 125 ----
+  slides-125-rasprg-global-standards-local-voices-mapping-latin-american-participation-in-the-ietf-meetings: |
+    The Internet Engineering Task Force (IETF) is one of the main global
+    organizations responsible for developing and maintaining the technical
+    standards that sustain the Internet. Although its processes are open and
+    volunteer-based, participation remains geographically concentrated. This
+    talk presents early findings from an ongoing longitudinal study of Latin
+    American and Caribbean participation in IETF meetings, examining who
+    contributes, from which institutions and sectors, and what factors shape
+    engagement. We created a dataset covering all IETF meetings (IETF 1-123),
+    consolidating participant names, affiliations, countries, and registration
+    types. Preliminary analyses show that North America and Europe continue to
+    dominate participation, while Latin America and the Caribbean (led by
+    Brazil) have shown gradual growth since the 2010s. Regional participation
+    is concentrated around organizations such as NIC.br, LACNIC, and
+    universities, with fellowships and remote participation hubs playing an
+    important enabling role.
+
+  slides-125-rasprg-from-standards-adopter-to-standards-author-the-evolution-of-koreas-national-standardization-system-with-a-focus-on-ict: |
+    This presentation examines Korea's transition from standards adopter to
+    standards author, tracing the evolution of its national standardization
+    system from the 1960s to the present. In its early stages, standards
+    primarily supported export-driven industrialization through national
+    planning and the development of quality infrastructure. Over time, however,
+    standardization became increasingly integrated with industrial and
+    technology policy.
+
+    From the late 1990s onward, Korea pursued a more proactive strategy in ICT
+    standardization, linking research and development (R&D) with international
+    engagement and expanding its participation in global standards development
+    organizations. Institutions such as ETRI (Electronics and
+    Telecommunications Research Institute) and TTA (Telecommunications
+    Technology Association) played coordinating roles between government,
+    industry, and international SDOs, contributing to Korea's growing presence
+    in ICT-related standard-setting activities.
+
+    As rule-setting in critical and emerging technologies becomes increasingly
+    competitive, the strategic importance of ICT standardization continues to
+    grow. In this context, Korea's case would offer insights into how
+    institutional development enhances a country's participation in
+    international standardization.
+
+  slides-125-rasprg-beyond-ascii-art-making-rfc-protocol-logic-auditable-with-rfseek: |
+    RFC specifications are long prose documents whose protocol logic is often
+    distributed across multiple sections. While authors sometimes include ASCII
+    state machine diagrams to aid understanding, these diagrams are
+    intentionally simplified and may omit behaviors described elsewhere in the
+    text.
+
+    This talk presents RFSeek, a tool based on a new approach we call summary
+    visualization. RFSeek extracts protocol logic from RFC text using Large
+    Language Models (LLMs) and produces interactive visual models where each
+    transition is linked to the specification passages that justify it. These
+    provenance links allow users to inspect and audit the extracted behavior.
+    Applying RFSeek to several protocols surfaced logic missing from published
+    diagrams, including a TCP transition that led to an accepted editorial
+    errata for RFC 9293. We will also invite protocol practitioners to try
+    RFSeek and participate in upcoming user studies at the IETF 126 Hackathon.
+
+  # ---- IETF 126 ----
+  slides-126-rasprg-ai-in-standards-participation: |
+    AI is increasingly used to research, write, and implement Internet
+    standards, and, increasingly, to participate in standards discourse itself.
+    As an assistive technology, it can lower barriers for those facing language
+    or other obstacles. However, it also makes it easy to participate with
+    limited human effort or understanding, straining a community whose value
+    rests on a finite pool of expert attention.
+
+    This talk demonstrates ietf-llm, a tool for querying a working group's or
+    research group's public record, and uses it to ground a discussion of where
+    AI helps participation, where it harms it, and what norms the IETF and IRTF
+    might adopt in response.
+
+  slides-126-rasprg-3-marcello-santos: |
+    It is well known that most Internet-Drafts never become RFCs. This talk
+    shares early, work-in-progress findings from a study that looks at where in
+    the process drafts tend to stall, using the IETF Datatracker to reconstruct
+    each draft's lifecycle, including its outcome, authors, affiliations,
+    geography, and process history.
+
+    So far, the results suggest that a draft's fate is shaped largely at one key
+    point: Working Group adoption. Some patterns that appear clear in simple
+    comparisons, such as differences by region, by area, or between the IETF
+    and IRTF, seem to change once adoption is taken into account.
+
+    These are preliminary observations rather than firm conclusions, and the
+    analysis is still being refined. The aim of the talk is to share the
+    approach and initial signals, gather feedback, and discuss what they might
+    mean for lowering barriers to entry.
+
+  slides-126-rasprg-community-vitality-through-ripe-mailing-lists: |
+    RIPE mailing lists have been active for over 30 years and have been one of
+    the main communication channels for the RIPE community and the RIPE NCC
+    membership. This analysis looks into mailing list traffic over time, the
+    concentration of participation, the longevity of contributors, and the role
+    of the most popular mailing lists in overall discussion.
+
+    The results reflect long-term engagement within the RIPE community and RIPE
+    NCC membership, as seen through the mailing lists.
+
+  slides-126-rasprg-analysing-internet-standards-data: |
+    This document outlines issues to consider when studying data relating to
+    the Internet standards development ecosystem. It identifies observable
+    components of standards development processes, proposes a taxonomy of
+    possible measurements, and highlights methodological, interpretive, and
+    ethical considerations.
+
+    The draft is intended to support a range of uses, including monitoring
+    standards development organisations, evaluating the evolution of technical
+    work, understanding technology deployment, and informing community,
+    leadership, and governance discussions.
+
+  # ---- IETF 127 ----
+  slides-127-rasprg-llm-text-in-ietf-discussions: |
+    This presentation will discuss the proposed guidelines for the use of large
+    language models (LLMs) in IETF email discussions. See draft-fengfar-led for
+    further details.
+
+  slides-127-rasprg-beyond-ascii-art-recruiting-protocol-experts-for-rfseek-user-studies: |
+    RFC specifications often describe protocol behavior across multiple
+    sections of prose, while accompanying state-machine diagrams may omit
+    important transitions.
+
+    RFSeek introduces an approach we call summary visualization: using Large
+    Language Models (LLMs) to construct interactive representations of protocol
+    behavior, with each transition linked to the supporting passages in the
+    RFC. These provenance links allow experts to inspect, verify, and challenge
+    the extracted logic.
+
+    Applying RFSeek to several protocols revealed discrepancies between the
+    specification text and published diagrams, including a missing TCP
+    transition that resulted in a verified editorial erratum for RFC 9293.
+
+    We are now planning user studies to understand how protocol practitioners
+    interact with RFSeek, evaluate its results, and assess its usefulness for
+    protocol development and review. This short talk will briefly revisit
+    RFSeek and invite RFC authors, reviewers, and implementers to participate in
+    the upcoming evaluation.
+
+  slides-127-rasprg-who-wrote-the-rfcs-authorship-affiliation-and-community-1969-2026: |
+    Quantitative analysis of IETF standardization relies on authorship data
+    that is incomplete in a subtle but significant way: it contains no
+    authorship information before 1980, so the entire ARPANET era, when the
+    community formed, is unrepresented. Authorship records have been
+    reconstructed from the documents themselves, resulting in a corpus of
+    24,343 person-authorships across 9,848 RFCs published through October 2026,
+    with complete country and institutional affiliation for each entry. This
+    reconstruction reveals three key findings: 1) in the early 1990s, the
+    series ceased to be both academic and American within the same five-year
+    span; 2) the founding generation did not transition the series to
+    successors, as publication nearly halted in the late 1970s and later
+    resumed with a different cohort; 3) co-author communities align with
+    technical domains rather than the working-group structure, persisting for
+    decades beyond the original charters.
+
+  slides-127-rasprg-tracing-research-into-standards-investigating-irtf-contributions-to-the-ietf: |
+    How do research results from the IRTF find their way into IETF work, and
+    what evidence can demonstrate that contribution? This presentation
+    introduces a methodology and supporting tool for investigating research
+    transfer between the two organizations. The approach combines document
+    collection, candidate discovery, and human review to examine documentary
+    links, relationships between research and working groups, and the role of
+    individuals. It distinguishes signals such as citations from evidence of
+    substantive use, while preserving traceability and making coverage
+    limitations explicit. The talk will present the approach, current tool
+    capabilities, and open methodological questions, inviting feedback on
+    evidence criteria and validation.

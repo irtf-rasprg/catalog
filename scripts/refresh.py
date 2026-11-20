@@ -5,7 +5,9 @@ New meetings are appended to data/meetings.yaml and new slide decks to
 data/presentations.yaml as stubs (needs_review: true). Existing entries are
 never overwritten, so hand-curated titles, presenters and topics are kept.
 Presenters are not part of the slide metadata: fill them in from the meeting
-agenda, then remove needs_review.
+agenda, then remove needs_review. Abstracts (data/abstracts.yaml) and resource
+links (resources: in presentations.yaml) are also curated by hand from the
+agenda and slides.
 
 Usage: python scripts/refresh.py [--dry-run]
 """
@@ -64,7 +66,8 @@ def main():
             label = f"IETF {mid}" if m["type"].endswith("/ietf/") else mid
             new_m.append({"id": mid, "label": label, "type": tail(m["type"]), "date": m["date"],
                           "location": m.get("city") or "Virtual",
-                          "materials": f"{API}/meeting/{mid}/session/{GROUP}", "recording": None})
+                          "materials": f"{API}/meeting/{mid}/session/{GROUP}", "recording": None,
+                          "agenda": None})
             known_m.add(mid)
         sps = get("/api/v1/meeting/sessionpresentation/", session=s["id"], limit=200)["objects"]
         for sp in sps:
