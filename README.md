@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python scripts/refresh.py      # adds new meetings and slide decks (needs_review: true)
 # edit data/presentations.yaml: set presenters, affiliation, kind and topics
 # from the meeting agenda, then delete the needs_review line
-python scripts/build.py        # validates and regenerates docs/data.json
+python scripts/build.py        # validates, regenerates docs/data.json and cache-busts CSS/JS links
 ```
 
 `refresh.py` never overwrites existing entries, so curated fields are safe.
