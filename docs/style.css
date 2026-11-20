@@ -17,8 +17,7 @@ h1 small { font-size: 60%; }
 
 .talk-title { font-weight: 600; }
 .talk .who .btn-link { --bs-btn-padding-x: 0; --bs-btn-padding-y: 0; vertical-align: baseline; font-size: inherit; }
-.talk .actions .btn { --bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .8125rem; }
-.talk .actions .btn.missing { border-style: dashed; }
+.talk .actions .btn:disabled { opacity: .55; }
 
 .panel { border-left: 3px solid var(--bs-border-color); padding: .5rem .75rem; margin-top: .5rem;
   background: var(--bs-tertiary-bg); border-radius: 0 .375rem .375rem 0; }
