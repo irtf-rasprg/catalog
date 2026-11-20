@@ -82,7 +82,7 @@
     $("topics").innerHTML = DATA.topics.map((t) => {
       const n = base.filter((p) => (p.topics || []).includes(t.id)).length;
       const on = state.topics.has(t.id);
-      return `<button type="button" class="btn btn-sm topic-btn ${on ? "btn-primary" : "btn-outline-primary"}" data-topic="${esc(t.id)}" aria-pressed="${on}" title="${esc(t.description)}">${esc(t.label)} <span class="badge ${on ? "text-bg-light" : "text-bg-secondary"} ms-1">${n}</span></button>`;
+      return `<button type="button" class="btn btn-sm btn-primary topic-btn${on ? " active" : ""}" data-topic="${esc(t.id)}" aria-pressed="${on}" title="${esc(t.description)}">${on ? `<i class="bi bi-check-lg me-1" aria-hidden="true"></i>` : ""}${esc(t.label)} <span class="badge rounded-pill text-bg-light ms-1">${n}</span></button>`;
     }).join("");
   }
 
@@ -116,11 +116,17 @@
     const nres = (p.resources || []).length;
     const aOpen = isOpen(openAbs, p.id, state.allAbs);
     const rOpen = nres > 0 && isOpen(openRes, p.id, state.allRes);
-    const absBtn = isTalk(p) ? `<button type="button" class="btn ${p.abstract ? "btn-outline-primary" : "btn-outline-secondary missing"}${aOpen ? " active" : ""}" data-toggle="abs" data-id="${esc(p.id)}" aria-expanded="${aOpen}"
-        title="${p.abstract ? "Show the abstract from the session agenda" : "The session agenda has no abstract for this talk"}"><i class="bi bi-text-paragraph me-1" aria-hidden="true"></i>${p.abstract ? "Abstract" : "No abstract"}</button>` : "";
-    const resBtn = nres ? `<button type="button" class="btn btn-outline-success${rOpen ? " active" : ""}" data-toggle="res" data-id="${esc(p.id)}" aria-expanded="${rOpen}"
-        title="Tools, papers and other links from the agenda and slides"><i class="bi bi-link-45deg me-1" aria-hidden="true"></i>Resources <span class="badge ${rOpen ? "text-bg-light" : "text-bg-success"} ms-1">${nres}</span></button>`
-      : (isTalk(p) ? `<button type="button" class="btn btn-outline-secondary missing" disabled title="No links found in the agenda or slides"><i class="bi bi-link-45deg me-1" aria-hidden="true"></i>No resources</button>` : "");
+    // Button styles follow the Datatracker (e.g. group meetings page): solid
+    // btn-primary btn-sm when the item exists, btn-secondary disabled when not.
+    const chev = (open) => `<i class="bi bi-chevron-${open ? "up" : "down"} ms-1" aria-hidden="true"></i>`;
+    const absBtn = !isTalk(p) ? "" : p.abstract
+      ? `<button type="button" class="btn btn-sm btn-primary${aOpen ? " active" : ""}" data-toggle="abs" data-id="${esc(p.id)}" aria-expanded="${aOpen}"
+          title="Show the abstract from the session agenda"><i class="bi bi-text-paragraph me-1" aria-hidden="true"></i>Abstract${chev(aOpen)}</button>`
+      : `<span title="The session agenda has no abstract for this talk"><button type="button" class="btn btn-sm btn-secondary" disabled><i class="bi bi-text-paragraph me-1" aria-hidden="true"></i>No abstract</button></span>`;
+    const resBtn = nres
+      ? `<button type="button" class="btn btn-sm btn-primary${rOpen ? " active" : ""}" data-toggle="res" data-id="${esc(p.id)}" aria-expanded="${rOpen}"
+          title="Tools, papers and other links from the agenda and slides"><i class="bi bi-link-45deg me-1" aria-hidden="true"></i>Resources <span class="badge rounded-pill text-bg-light ms-1">${nres}</span>${chev(rOpen)}</button>`
+      : (isTalk(p) ? `<span title="No links found in the agenda or slides"><button type="button" class="btn btn-sm btn-secondary" disabled><i class="bi bi-link-45deg me-1" aria-hidden="true"></i>No resources</button></span>` : "");
     return `<li class="list-group-item talk">
       <div class="d-flex flex-wrap gap-2 align-items-start">
         <div class="flex-grow-1" style="min-width: 14rem">
@@ -130,7 +136,7 @@
         </div>
         <div class="actions d-flex flex-wrap gap-1">
           ${absBtn}${resBtn}
-          <a class="btn btn-primary" href="${esc(p.slides)}" ${ext}><i class="bi bi-file-earmark-slides me-1" aria-hidden="true"></i>Slides</a>
+          <a class="btn btn-sm btn-primary" href="${esc(p.slides)}" ${ext}><i class="bi bi-file-earmark-slides me-1" aria-hidden="true"></i>Slides</a>
         </div>
       </div>
       ${aOpen && isTalk(p) ? abstractPanel(p) : ""}
