@@ -198,7 +198,7 @@
     });
   }
 
-  fetch("data.json").then((r) => r.json()).then((d) => {
+  fetch("data.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => {
     DATA = d;
     meetingsById = Object.fromEntries(d.meetings.map((m) => [m.id, m]));
     topicsById = Object.fromEntries(d.topics.map((t) => [t.id, t]));

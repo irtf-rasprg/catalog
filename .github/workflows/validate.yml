@@ -13,5 +13,5 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python scripts/build.py
-      - name: docs/data.json is up to date
-        run: git diff --exit-code docs/data.json
+      - name: docs/data.json and asset versions are up to date
+        run: git diff --exit-code docs/data.json docs/index.html

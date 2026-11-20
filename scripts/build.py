@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Validate the YAML catalog and export docs/data.json for the static site."""
+import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -16,6 +18,17 @@ RESOURCE_SOURCES = {"agenda", "slides", "presenter", "other"}
 def load(name):
     with open(DATA / name, encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def stamp_assets():
+    """Add ?v=<content hash> to the site's own CSS/JS links in docs/index.html,
+    so browsers fetch the new files after a deploy instead of cached ones."""
+    index = ROOT / "docs" / "index.html"
+    html = index.read_text(encoding="utf-8")
+    for name in ("style.css", "app.js"):
+        digest = hashlib.sha256((ROOT / "docs" / name).read_bytes()).hexdigest()[:10]
+        html = re.sub(rf'(["\']){re.escape(name)}(\?v=[0-9a-f]+)?(["\'])', rf"\g<1>{name}?v={digest}\g<3>", html)
+    index.write_text(html, encoding="utf-8")
 
 
 def main():
@@ -72,6 +85,7 @@ def main():
     out = {"topics": topics, "meetings": meetings, "presentations": presentations}
     target = ROOT / "docs" / "data.json"
     target.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    stamp_assets()
     talks = [p for p in presentations if p["kind"] in {"talk", "panel"}]
     with_abs = sum(1 for p in talks if p.get("abstract"))
     with_res = sum(1 for p in talks if p.get("resources"))
