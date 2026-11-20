@@ -14,9 +14,13 @@ agenda, then remove needs_review. Abstracts (data/abstracts.yaml) and resource
 links (resources: in presentations.yaml) are curated by hand from the agenda
 and slides; the summary lists which new talks still need them.
 
-Usage: python scripts/refresh.py [--dry-run] [--summary FILE]
-  --summary FILE  write a Markdown summary of the changes (used as the PR body
-                  by .github/workflows/refresh.yml)
+Usage: python scripts/refresh.py [--dry-run] [--summary FILE] [--todo FILE]
+  --summary FILE  write a Markdown summary of this run's changes (only written
+                  when something changed)
+  --todo FILE     write a Markdown checklist of every entry still marked
+                  needs_review (always written; empty list when none remain)
+.github/workflows/refresh.yml uses both: the summary becomes the commit
+message and an issue comment, the to-do list the body of a tracking issue.
 """
 import argparse
 import time
@@ -66,21 +70,34 @@ def dump(name, key, items):
         yaml.safe_dump({key: items}, f, allow_unicode=True, sort_keys=False, width=200)
 
 
+def write_todo(path, presentations, abstracts):
+    stubs = [p for p in presentations if p.get("needs_review")]
+    lines = []
+    for p in stubs:
+        missing = []
+        if not p.get("presenters") or "TBD" in p["presenters"]:
+            missing.append("presenters")
+        if not p.get("topics"):
+            missing.append("topics")
+        if p["id"] not in abstracts:
+            missing.append("abstract")
+        if not p.get("resources"):
+            missing.append("resources")
+        need = ", ".join(missing) or "check and remove needs_review"
+        lines.append(f"- [ ] {p['meeting']}: [{p['title']}]({p['slides']}) (`{p['id']}`): {need}")
+    Path(path).write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+    return len(stubs)
+
+
 def write_summary(path, new_m, filled, new_p):
-    lines = ["Automated refresh from the [IETF Datatracker](https://datatracker.ietf.org/rg/rasprg/meetings/).", ""]
+    lines = []
     if new_m:
         lines += ["### New meetings", ""] + [f"- {m['label']} ({m['date']}, {m['location']})" for m in new_m] + [""]
     if filled:
         lines += ["### Links added to existing meetings", ""] + [f"- {mid}: {field} {url}" for mid, field, url in filled] + [""]
     if new_p:
-        lines += ["### New slide decks (need review)", "",
-                  "Each is a stub with `presenters: [TBD]` and `needs_review: true`. Before merging, on this branch:", "",
-                  "1. In `data/presentations.yaml`, set presenters, affiliation, kind and topics from the meeting agenda, then delete `needs_review`.",
-                  "2. Add abstracts to `data/abstracts.yaml` (quoted from the agenda) and any `resources:` links.",
-                  "3. Run `python scripts/build.py` and commit `docs/data.json`.", ""]
-        lines += [f"- [ ] `{p['id']}` ({p['meeting']}): [{p['title']}]({p['slides']})" for p in new_p] + [""]
-    else:
-        lines += ["No new slide decks; this PR only adds meeting data and can be merged after a quick look.", ""]
+        lines += ["### New slide decks (published as stubs, need presenters/topics/abstract)", ""]
+        lines += [f"- {p['meeting']}: [{p['title']}]({p['slides']})" for p in new_p] + [""]
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -88,6 +105,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--summary", metavar="FILE")
+    ap.add_argument("--todo", metavar="FILE")
     args = ap.parse_args()
 
     meetings = load("meetings.yaml", "meetings")
@@ -137,6 +155,10 @@ def main():
         print(f"{mid}: added {field} {url}")
     for p in new_p:
         print("new slides:", p["id"])
+    if args.todo:
+        abstracts = (yaml.safe_load(open(DATA / "abstracts.yaml", encoding="utf-8")) or {}).get("abstracts") or {}
+        n = write_todo(args.todo, presentations + new_p, abstracts)
+        print(f"{n} entries still need review.")
     if not (new_m or new_p or filled):
         print("Catalog is up to date.")
         return

@@ -27,14 +27,16 @@ month and the month after), and every Monday the rest of the year for interims.
 It can also be started by hand from the Actions tab ("Run workflow").
 
 When the Datatracker has something new (a meeting, a slide deck, a recording or
-agenda link), the workflow opens a pull request on the `automated/catalog-refresh`
-branch, assigned to the chairs for review. The PR body lists each new deck as a
-checklist: fill in presenters, topics, abstract and resources on that branch,
-run `build.py`, and merge. While that PR is open, later runs skip, so hand edits
-on the branch are never overwritten. Nothing is published until the PR is merged.
+agenda link), the workflow validates the data with `build.py` and commits it
+straight to `main`, which publishes it on GitHub Pages. No review step.
 
-Repository settings this needs: Settings → Actions → General → Workflow
-permissions → "Allow GitHub Actions to create and approve pull requests".
+New slide decks go live as stubs (`presenters: [TBD]`, no topics, a **needs
+review** badge on the site). The workflow keeps one issue, labelled
+`catalog-todo` and assigned to the chairs, listing every entry still marked
+`needs_review` and what each is missing (presenters, topics, abstract,
+resources). It comments on that issue when new talks arrive, and closes it once
+everything is filled in. Fill entries in by hand (below) and remove
+`needs_review`.
 
 ## Updating by hand
 

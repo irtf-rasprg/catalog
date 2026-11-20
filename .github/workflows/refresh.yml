@@ -4,6 +4,10 @@ name: Refresh catalog from Datatracker
 # meeting month and the month after (when slides and recordings get posted),
 # and weekly the rest of the year to catch interims. Run by hand any time from
 # the Actions tab ("Run workflow").
+#
+# Changes are committed straight to main (and so published on GitHub Pages).
+# New talks go live as stubs marked "needs review"; the issue labelled
+# catalog-todo lists what still needs presenters, topics, abstracts or resources.
 on:
   schedule:
     - cron: "17 12 * 3,4,7,8,11,12 *"   # daily, meeting months + following month
@@ -11,75 +15,90 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write        # push the refresh branch
-  pull-requests: write   # open the PR
-  actions: write         # keepalive (re-enable this workflow)
+  contents: write   # push the refreshed data to main
+  issues: write     # keep the to-do issue current
+  pages: write      # request a Pages build after the push
+  actions: write    # keepalive (re-enable this workflow)
 
 concurrency:
   group: catalog-refresh
   cancel-in-progress: false
 
 env:
-  BRANCH: automated/catalog-refresh
+  TODO_LABEL: catalog-todo
+  TODO_TITLE: "Catalog: talks to fill in"
+  ASSIGNEE: aretana
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       # GitHub disables scheduled workflows after 60 days without repository
       # activity. Re-enabling it through the API on every run resets that timer
       # without adding commits.
       - name: Keep the schedule alive
         if: github.event_name == 'schedule'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/refresh.yml/enable" || true
-
-      # Don't clobber an open refresh PR, which may hold hand edits (presenters,
-      # topics, abstracts). The next run after it is merged or closed picks up
-      # anything newer.
-      - name: Skip if a refresh PR is already open
-        id: open_pr
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          n=$(gh pr list --head "$BRANCH" --state open --json number --jq length)
-          echo "count=$n" >> "$GITHUB_OUTPUT"
-          if [ "$n" != "0" ]; then echo "::notice::Refresh PR already open on $BRANCH; skipping."; fi
+        run: gh api -X PUT "repos/$REPO/actions/workflows/refresh.yml/enable" || true
 
       - uses: actions/setup-python@v5
-        if: steps.open_pr.outputs.count == '0'
         with:
           python-version: "3.12"
 
+      # build.py validates the data and fails the job before anything is pushed.
       - name: Pull from Datatracker and rebuild
         id: refresh
-        if: steps.open_pr.outputs.count == '0'
         run: |
           pip install -r requirements.txt
-          python scripts/refresh.py --summary "$RUNNER_TEMP/summary.md"
+          python scripts/refresh.py --summary "$RUNNER_TEMP/summary.md" --todo "$RUNNER_TEMP/todo.md"
           python scripts/build.py
           if [ -f "$RUNNER_TEMP/summary.md" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+            grep -q "^### New slide decks" "$RUNNER_TEMP/summary.md" && echo "new_decks=true" >> "$GITHUB_OUTPUT" || true
           fi
 
-      # Opens a PR only if refresh.py changed something. PRs opened with the
-      # built-in token don't trigger other workflows, so validation runs above
-      # (build.py fails the job on invalid data).
-      - name: Open pull request
+      - name: Commit to main
         if: steps.refresh.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: ${{ env.BRANCH }}
-          delete-branch: true
-          add-paths: |
-            data/**
-            docs/**
-          commit-message: Refresh catalog from Datatracker
-          title: Catalog refresh from Datatracker
-          body-path: ${{ runner.temp }}/summary.md
-          assignees: aretana
-          reviewers: aretana
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
+          { echo "Refresh catalog from Datatracker"; echo; cat "$RUNNER_TEMP/summary.md"; } > "$RUNNER_TEMP/msg.txt"
+          git commit -q -F "$RUNNER_TEMP/msg.txt"
+          git push origin HEAD:main
+          # Pushes made with the built-in token normally start the Pages deploy;
+          # ask for a build explicitly in case they don't.
+          gh api -X POST "repos/$REPO/pages/builds" >/dev/null || echo "::warning::Could not request a Pages build; it may still deploy from the push."
+
+      - name: Update the to-do issue
+        run: |
+          gh label create "$TODO_LABEL" --color FBCA04 --description "Catalog entries that need presenters, topics or abstracts" --force >/dev/null || true
+          num=$(gh issue list --label "$TODO_LABEL" --state open --json number --jq '.[0].number // empty')
+          if [ -s "$RUNNER_TEMP/todo.md" ]; then
+            {
+              echo "These talks were added automatically from the Datatracker and are live on the [catalog](https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/) with a **needs review** badge."
+              echo "Fill in what each one is missing in \`data/presentations.yaml\` (presenters, affiliation, kind, topics; then delete \`needs_review\`), \`data/abstracts.yaml\` and \`resources:\`, or ask Claude in the rasprg Catalog project to do it."
+              echo
+              echo "This list is regenerated by the refresh workflow; the issue closes itself when nothing is left."
+              echo
+              cat "$RUNNER_TEMP/todo.md"
+            } > "$RUNNER_TEMP/issue.md"
+            if [ -z "$num" ]; then
+              gh issue create --title "$TODO_TITLE" --label "$TODO_LABEL" --assignee "$ASSIGNEE" --body-file "$RUNNER_TEMP/issue.md"
+            else
+              gh issue edit "$num" --body-file "$RUNNER_TEMP/issue.md"
+              if [ "${{ steps.refresh.outputs.new_decks }}" = "true" ]; then
+                gh issue comment "$num" --body-file "$RUNNER_TEMP/summary.md"
+              fi
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "All catalog entries are filled in."
+          fi
